@@ -4,8 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        #container{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 100vw;
+            height: 120px;
+            background-color: blue;
+        }
+        img {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+        }
+        .item :hover {
+            width: 200px;
+            height: 200px;
+        }
+    </style>
 </head>
 <body>
-    <p>kellen</p>
+    <div id="container">
+        <div class="item">
+            <img src="sbrv1.jpg">
+        </div>
+        <div class="item">
+            <img src="porygon2.jpg">
+        </div>
+        <div class="item">
+            <img src="geris_game.png">
+        </div>
+    </div>
 </body>
 </html>
