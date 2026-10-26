@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Homepage</title>
     <style>
         body {
             margin: 0;
@@ -16,27 +16,44 @@
             height: 120px;
             background-color: blue;
         }
-        img {
+        #page_one {
+            /* setting image as background */
+            background-image: url(sbrv1.jpg);
+        }
+        #page_two {
+            /* setting image as background */
+            background-image: url(porygon2.jpg);
+        }
+        #page_three {
+            /* setting image as background */
+            background-image: url(geris_game.png);
+        }
+        .nav_item {
+            background-repeat: no-repeat;
+            background-size: cover;
             width: 100px;
             height: 100px;
             margin: 10px;
+            text-align: center;
+            font-size: 1rem;
         }
-        .item :hover {
+        .nav_item:hover {
             width: 200px;
             height: 200px;
+            font-size: 2rem;
         }
     </style>
 </head>
 <body>
     <div id="container">
-        <div class="item">
-            <img src="sbrv1.jpg">
+        <div class="nav_item" id="page_one">
+            page 1
         </div>
-        <div class="item">
-            <img src="porygon2.jpg">
+        <div class="nav_item" id="page_two">
+            page 2
         </div>
-        <div class="item">
-            <img src="geris_game.png">
+        <div class="nav_item" id="page_three">
+            page 3
         </div>
     </div>
 </body>
