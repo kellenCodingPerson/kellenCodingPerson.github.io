@@ -1,9 +1,8 @@
-body {
+        /* Styling for all pages */
+        body {
             margin: 0;
             max-width: 100vw;
             overflow-x: hidden;
-            background-image: url(sbrv1.jpg);
-            background-repeat: no-repeat;
         }
         #navbar {
             display: flex;
@@ -17,22 +16,22 @@ body {
         #page_one {
             /* setting image as background */
             background-image: url(sbrv1.jpg);
-            z-index: 5;
         }
         #page_two {
             /* setting image as background */
             background-image: url(porygon2.jpg);
-            z-index: 5;
         }
         #page_three {
             /* setting image as background */
             background-image: url(geris_game.png);
-            z-index: 5;
         }
         #page_four {
             /* setting image as background */
             background-image: url(peashooter.png);
-            z-index: 5;
+        }
+        #page_five {
+            /* setting image as background */
+            background-image: url(sunflower.png);
         }
         .nav_item {
             /* aligning label */
@@ -50,6 +49,7 @@ body {
             margin: 10px;
             font-size: 1rem;
             color: chartreuse;
+            z-index: 5;
         }
         .nav_item:hover {
             width: 200px;
@@ -58,8 +58,8 @@ body {
         }
         #title {
             width: 100vw;
-            height: 200px;
-            margin-top: 20vh;
+            text-align: center;
+            margin-top: 10vh;
             margin-bottom: 20vh;
             font-size: 5rem;
             background-color: chartreuse;
