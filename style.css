@@ -49,12 +49,22 @@
             margin: 10px;
             font-size: 1rem;
             color: chartreuse;
-            z-index: 5;
+            z-index: 10;
         }
+
         .nav_item:hover {
             width: 200px;
             height: 200px;
             font-size: 2rem;
+        }
+
+        /* make links appear above other elements when hovering */
+        a:hover {
+            z-index: 11;
+        }
+        a {
+            /* no underline for links */
+            text-decoration: none;
         }
         #homepage_title_container {
             width: 100vw;
@@ -64,7 +74,9 @@
             background-image: url(sbrv1.jpg);
             background-repeat: no-repeat;
             background-size: cover;
-            z-index: 4;
+            z-index: 9;
+            border-width: 0px 0px 10px 0px;
+            border-style: solid;
         }
         #homepage_title {
             width: 27%;
@@ -73,4 +85,5 @@
             background-color: chartreuse;
             margin: 2rem;
             padding: 1rem;
+            z-index: 9;
         }
