@@ -56,11 +56,21 @@
             height: 200px;
             font-size: 2rem;
         }
-        #title {
+        #homepage_title_container {
             width: 100vw;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            background-image: url(sbrv1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            z-index: 4;
+        }
+        #homepage_title {
+            width: 27%;
             text-align: center;
-            margin-top: 10vh;
-            margin-bottom: 20vh;
             font-size: 5rem;
             background-color: chartreuse;
+            margin: 2rem;
+            padding: 1rem;
         }
