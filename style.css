@@ -66,6 +66,31 @@
             /* no underline for links */
             text-decoration: none;
         }
+        /* flying pokemon animations */
+        @keyframes flying {
+            0% {
+                left: 100vw;
+            }
+            100% {
+                left: -100vw;
+            }
+        }
+        .flying_pokemon {
+            position: absolute;
+            top: 120vh;
+            /* start image outside of view window */
+            right: -100vw;
+            width: 200px;
+            height: 200px;
+
+            animation-name: flying;
+            animation-duration: 20s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            animation-delay: 20s;
+        }
+
+        /* homepage styling */
         #homepage_title_container {
             width: 100vw;
             display: flex;
@@ -76,7 +101,7 @@
             background-size: cover;
             z-index: 9;
             border-width: 0px 0px 10px 0px;
-            border-style: solid;
+            border-style: double;
         }
         #homepage_title {
             width: 27%;
@@ -87,3 +112,26 @@
             padding: 1rem;
             z-index: 9;
         }
+        #homepage_container_1 {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+
+            /* background image */
+            background-image: url(sbrv1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            z-index: 9;
+            border-width: 0px 0px 10px 0px;
+            border-style: double;
+
+            /* text */
+            justify-content: center;
+            align-items: end;
+            box-sizing: border-box;
+            padding-bottom: 10px;
+            font-size: 1.5rem;
+        }
+        
