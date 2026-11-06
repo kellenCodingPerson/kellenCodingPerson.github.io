@@ -1,9 +1,11 @@
-        /* Styling for all pages */
+        /*============== Styling for all pages ==============*/
         body {
             margin: 0;
             max-width: 100vw;
-            overflow-x: hidden;
+            overflow-x: hidden
         }
+
+        /* Navbar code */
         #navbar {
             display: flex;
             flex-direction: row;
@@ -51,13 +53,11 @@
             color: chartreuse;
             z-index: 10;
         }
-
         .nav_item:hover {
             width: 200px;
             height: 200px;
             font-size: 2rem;
         }
-
         /* make links appear above other elements when hovering */
         a:hover {
             z-index: 11;
@@ -66,6 +66,7 @@
             /* no underline for links */
             text-decoration: none;
         }
+
         /* flying pokemon animations */
         @keyframes flying {
             0% {
@@ -84,13 +85,37 @@
             height: 200px;
 
             animation-name: flying;
-            animation-duration: 20s;
             animation-iteration-count: infinite;
             animation-timing-function: linear;
-            animation-delay: 20s;
         }
 
-        /* homepage styling */
+        /*=============== Homepage Styling ===============*/
+        @keyframes homepage_title_animation {
+            24.99% {
+                background-image: url(sbrv1.jpg);
+            }
+            25% {
+                background-image: url(geris_game.png);
+            }
+            49.99% {
+                background-image: url(geris_game.png);
+            }
+            50% {
+                background-image: url(peashooter.png);
+            }
+            74.99% {
+                background-image: url(peashooter.png);
+            }
+            75% {
+                background-image: url(porygon2.jpg);
+            }
+            99.99% {
+                background-image: url(porygon2.jpg);
+            }
+            100% {
+                background-image: url(sbrv1.jpg);
+            }
+        }
         #homepage_title_container {
             width: 100vw;
             display: flex;
@@ -102,6 +127,13 @@
             z-index: 9;
             border-width: 0px 0px 10px 0px;
             border-style: double;
+
+            /* cycles through background images */
+            animation-name: homepage_title_animation;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            animation-fill-mode: forwards;
         }
         #homepage_title {
             width: 27%;
@@ -118,6 +150,7 @@
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
+            padding: 10px;
 
             /* background image */
             background-image: url(sbrv1.jpg);
@@ -134,4 +167,96 @@
             padding-bottom: 10px;
             font-size: 1.5rem;
         }
-        
+
+        #ho_oh {
+            animation-delay: 30s;
+            animation-duration: 20s;
+        }
+
+        /*=============== Species Styling ===============*/
+        @keyframes species_title_animation {
+            24.99% {
+                background-image: url(sbrv1.jpg);
+            }
+            25% {
+                background-image: url(geris_game.png);
+            }
+            49.99% {
+                background-image: url(geris_game.png);
+            }
+            50% {
+                background-image: url(peashooter.png);
+            }
+            74.99% {
+                background-image: url(peashooter.png);
+            }
+            75% {
+                background-image: url(porygon2.jpg);
+            }
+            99.99% {
+                background-image: url(porygon2.jpg);
+            }
+            100% {
+                background-image: url(sbrv1.jpg);
+            }
+        }
+        #species_title_container {
+            width: 100vw;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            background-image: url(sbrv1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            z-index: 9;
+            border-width: 0px 0px 10px 0px;
+            border-style: double;
+
+            /* cycles through background images */
+            animation-name: species_title_animation;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            animation-fill-mode: forwards;
+            justify-content: center;
+        }
+        #species_title {
+            /* width: 27%; */
+            text-align: center;
+            font-size: 5rem;
+            background-color: chartreuse;
+            margin: 2rem;
+            padding: 1rem;
+            z-index: 9;
+        }
+        #species_container_1 {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+
+            /* background image */
+            background-image: url(sbrv1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            z-index: 9;
+            border-width: 10px 10px 10px 10px;
+            border-style: double;
+
+            /* text */
+            justify-content: center;
+            align-items: end;
+            box-sizing: border-box;
+            padding-bottom: 10px;
+            font-size: 1.5rem;
+        }
+        #rayquaza {
+            animation-delay: 20s;
+            animation-duration: 10s;
+        }
+        /*=============== Stats Styling ===============*/
+
+        /*=============== Forms Styling ===============*/
+
+        /*=============== Customize Styling ===============*/
