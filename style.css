@@ -307,6 +307,11 @@
             margin: 1rem;
             background-repeat: no-repeat;
             background-size: cover;
+            padding: 1rem;
+            font-size: 1.5rem;
+            display: flex;
+            align-items: end;
+
         }
         .pokemon_image:hover {
             width: 17rem;
@@ -561,3 +566,2964 @@
         #Clefable {
             background-image: url(pokemon_pngs/clefable.png);
         }
+        #Vulpix {
+                    background-image: url(pokemon_pngs/vulpix.png);
+        }
+        #Ninetales {
+                    background-image: url(pokemon_pngs/ninetales.png);
+        }
+        #Jigglypuff {
+                    background-image: url(pokemon_pngs/jigglypuff.png);
+        }
+        #Wigglytuff {
+                    background-image: url(pokemon_pngs/wigglytuff.png);
+        }
+        #Zubat {
+                    background-image: url(pokemon_pngs/zubat.png);
+        }
+        #Golbat {
+                    background-image: url(pokemon_pngs/golbat.png);
+        }
+        #Oddish {
+                    background-image: url(pokemon_pngs/oddish.png);
+        }
+        #Gloom {
+                    background-image: url(pokemon_pngs/gloom.png);
+        }
+        #Vileplume {
+                    background-image: url(pokemon_pngs/vileplume.png);
+        }
+        #Paras {
+                    background-image: url(pokemon_pngs/paras.png);
+        }
+        #Parasect {
+                    background-image: url(pokemon_pngs/parasect.png);
+        }
+        #Venonat {
+                    background-image: url(pokemon_pngs/venonat.png);
+        }
+        #Venomoth {
+                    background-image: url(pokemon_pngs/venomoth.png);
+        }
+        #Diglett {
+                    background-image: url(pokemon_pngs/diglett.png);
+        }
+        #Dugtrio {
+                    background-image: url(pokemon_pngs/dugtrio.png);
+        }
+        #Meowth {
+                    background-image: url(pokemon_pngs/meowth.png);
+        }
+        #Persian {
+                    background-image: url(pokemon_pngs/persian.png);
+        }
+        #Psyduck {
+                    background-image: url(pokemon_pngs/psyduck.png);
+        }
+        #Golduck {
+                    background-image: url(pokemon_pngs/golduck.png);
+        }
+        #Mankey {
+                    background-image: url(pokemon_pngs/mankey.png);
+        }
+        #Primeape {
+                    background-image: url(pokemon_pngs/primeape.png);
+        }
+        #Growlithe {
+                    background-image: url(pokemon_pngs/growlithe.png);
+        }
+        #Arcanine {
+                    background-image: url(pokemon_pngs/arcanine.png);
+        }
+        #Poliwag {
+                    background-image: url(pokemon_pngs/poliwag.png);
+        }
+        #Poliwhirl {
+                    background-image: url(pokemon_pngs/poliwhirl.png);
+        }
+        #Poliwrath {
+                    background-image: url(pokemon_pngs/poliwrath.png);
+        }
+        #Abra {
+                    background-image: url(pokemon_pngs/abra.png);
+        }
+        #Kadabra {
+                    background-image: url(pokemon_pngs/kadabra.png);
+        }
+        #Alakazam {
+                    background-image: url(pokemon_pngs/alakazam.png);
+        }
+        #Machop {
+                    background-image: url(pokemon_pngs/machop.png);
+        }
+        #Machoke {
+                    background-image: url(pokemon_pngs/machoke.png);
+        }
+        #Machamp {
+                    background-image: url(pokemon_pngs/machamp.png);
+        }
+        #Bellsprout {
+                    background-image: url(pokemon_pngs/bellsprout.png);
+        }
+        #Weepinbell {
+                    background-image: url(pokemon_pngs/weepinbell.png);
+        }
+        #Victreebel {
+                    background-image: url(pokemon_pngs/victreebel.png);
+        }
+        #Tentacool {
+                    background-image: url(pokemon_pngs/tentacool.png);
+        }
+        #Tentacruel {
+                    background-image: url(pokemon_pngs/tentacruel.png);
+        }
+        #Geodude {
+                    background-image: url(pokemon_pngs/geodude.png);
+        }
+        #Graveler {
+                    background-image: url(pokemon_pngs/graveler.png);
+        }
+        #Golem {
+                    background-image: url(pokemon_pngs/golem.png);
+        }
+        #Ponyta {
+                    background-image: url(pokemon_pngs/ponyta.png);
+        }
+        #Rapidash {
+                    background-image: url(pokemon_pngs/rapidash.png);
+        }
+        #Slowpoke {
+                    background-image: url(pokemon_pngs/slowpoke.png);
+        }
+        #Slowbro {
+                    background-image: url(pokemon_pngs/slowbro.png);
+        }
+        #Magnemite {
+                    background-image: url(pokemon_pngs/magnemite.png);
+        }
+        #Magneton {
+                    background-image: url(pokemon_pngs/magneton.png);
+        }
+        #Farfetchd {
+                    background-image: url(pokemon_pngs/farfetchd.png);
+        }
+        #Doduo {
+                    background-image: url(pokemon_pngs/doduo.png);
+        }
+        #Dodrio {
+                    background-image: url(pokemon_pngs/dodrio.png);
+        }
+        #Seel {
+                    background-image: url(pokemon_pngs/seel.png);
+        }
+        #Dewgong {
+                    background-image: url(pokemon_pngs/dewgong.png);
+        }
+        #Grimer {
+                    background-image: url(pokemon_pngs/grimer.png);
+        }
+        #Muk {
+                    background-image: url(pokemon_pngs/muk.png);
+        }
+        #Shellder {
+                    background-image: url(pokemon_pngs/shellder.png);
+        }
+        #Cloyster {
+                    background-image: url(pokemon_pngs/cloyster.png);
+        }
+        #Gastly {
+                    background-image: url(pokemon_pngs/gastly.png);
+        }
+        #Haunter {
+                    background-image: url(pokemon_pngs/haunter.png);
+        }
+        #Gengar {
+                    background-image: url(pokemon_pngs/gengar.png);
+        }
+        #Onix {
+                    background-image: url(pokemon_pngs/onix.png);
+        }
+        #Drowzee {
+                    background-image: url(pokemon_pngs/drowzee.png);
+        }
+        #Hypno {
+                    background-image: url(pokemon_pngs/hypno.png);
+        }
+        #Krabby {
+                    background-image: url(pokemon_pngs/krabby.png);
+        }
+        #Kingler {
+                    background-image: url(pokemon_pngs/kingler.png);
+        }
+        #Voltorb {
+                    background-image: url(pokemon_pngs/voltorb.png);
+        }
+        #Electrode {
+                    background-image: url(pokemon_pngs/electrode.png);
+        }
+        #Exeggcute {
+                    background-image: url(pokemon_pngs/exeggcute.png);
+        }
+        #Exeggutor {
+                    background-image: url(pokemon_pngs/exeggutor.png);
+        }
+        #Cubone {
+                    background-image: url(pokemon_pngs/cubone.png);
+        }
+        #Marowak {
+                    background-image: url(pokemon_pngs/marowak.png);
+        }
+        #Hitmonlee {
+                    background-image: url(pokemon_pngs/hitmonlee.png);
+        }
+        #Hitmonchan {
+                    background-image: url(pokemon_pngs/hitmonchan.png);
+        }
+        #Lickitung {
+                    background-image: url(pokemon_pngs/lickitung.png);
+        }
+        #Koffing {
+                    background-image: url(pokemon_pngs/koffing.png);
+        }
+        #Weezing {
+                    background-image: url(pokemon_pngs/weezing.png);
+        }
+        #Rhyhorn {
+                    background-image: url(pokemon_pngs/rhyhorn.png);
+        }
+        #Rhydon {
+                    background-image: url(pokemon_pngs/rhydon.png);
+        }
+        #Chansey {
+                    background-image: url(pokemon_pngs/chansey.png);
+        }
+        #Tangela {
+                    background-image: url(pokemon_pngs/tangela.png);
+        }
+        #Kangaskhan {
+                    background-image: url(pokemon_pngs/kangaskhan.png);
+        }
+        #Horsea {
+                    background-image: url(pokemon_pngs/horsea.png);
+        }
+        #Seadra {
+                    background-image: url(pokemon_pngs/seadra.png);
+        }
+        #Goldeen {
+                    background-image: url(pokemon_pngs/goldeen.png);
+        }
+        #Seaking {
+                    background-image: url(pokemon_pngs/seaking.png);
+        }
+        #Staryu {
+                    background-image: url(pokemon_pngs/staryu.png);
+        }
+        #Starmie {
+                    background-image: url(pokemon_pngs/starmie.png);
+        }
+        #Mr_Mime {
+                    background-image: url(pokemon_pngs/mr_mime.png);
+        }
+        #Scyther {
+                    background-image: url(pokemon_pngs/scyther.png);
+        }
+        #Jynx {
+                    background-image: url(pokemon_pngs/jynx.png);
+        }
+        #Electabuzz {
+                    background-image: url(pokemon_pngs/electabuzz.png);
+        }
+        #Magmar {
+                    background-image: url(pokemon_pngs/magmar.png);
+        }
+        /* #Pinsir {
+                    background-image: url(pokemon_pngs/pinsir.png);
+        }
+        #Tauros {
+                    background-image: url(pokemon_pngs/tauros.png);
+        }
+        #Magikarp {
+                    background-image: url(pokemon_pngs/magikarp.png);
+        }
+        #Gyarados {
+                    background-image: url(pokemon_pngs/gyarados.png);
+        }
+        #Lapras {
+                    background-image: url(pokemon_pngs/lapras.png);
+        }
+        #Ditto {
+                    background-image: url(pokemon_pngs/ditto.png);
+        }
+        #Eevee {
+                    background-image: url(pokemon_pngs/eevee.png);
+        }
+        #Vaporeon {
+                    background-image: url(pokemon_pngs/vaporeon.png);
+        }
+        #Jolteon {
+                    background-image: url(pokemon_pngs/jolteon.png);
+        }
+        #Flareon {
+                    background-image: url(pokemon_pngs/flareon.png);
+        }
+        #Porygon {
+                    background-image: url(pokemon_pngs/porygon.png);
+        }
+        #Omanyte {
+                    background-image: url(pokemon_pngs/omanyte.png);
+        }
+        #Omastar {
+                    background-image: url(pokemon_pngs/omastar.png);
+        }
+        #Kabuto {
+                    background-image: url(pokemon_pngs/kabuto.png);
+        }
+        #Kabutops {
+                    background-image: url(pokemon_pngs/kabutops.png);
+        }
+        #Aerodactyl {
+                    background-image: url(pokemon_pngs/aerodactyl.png);
+        }
+        #Snorlax {
+                    background-image: url(pokemon_pngs/snorlax.png);
+        }
+        #Articuno {
+                    background-image: url(pokemon_pngs/articuno.png);
+        }
+        #Zapdos {
+                    background-image: url(pokemon_pngs/zapdos.png);
+        }
+        #Moltres {
+                    background-image: url(pokemon_pngs/moltres.png);
+        }
+        #Dratini {
+                    background-image: url(pokemon_pngs/dratini.png);
+        }
+        #Dragonair {
+                    background-image: url(pokemon_pngs/dragonair.png);
+        }
+        #Dragonite {
+                    background-image: url(pokemon_pngs/dragonite.png);
+        }
+        #Mewtwo {
+                    background-image: url(pokemon_pngs/mewtwo.png);
+        }
+        #Mew {
+                    background-image: url(pokemon_pngs/mew.png);
+        }
+        #Chikorita {
+                    background-image: url(pokemon_pngs/chikorita.png);
+        }
+        #Bayleef {
+                    background-image: url(pokemon_pngs/bayleef.png);
+        }
+        #Meganium {
+                    background-image: url(pokemon_pngs/meganium.png);
+        }
+        #Cyndaquil {
+                    background-image: url(pokemon_pngs/cyndaquil.png);
+        }
+        #Quilava {
+                    background-image: url(pokemon_pngs/quilava.png);
+        }
+        #Typhlosion {
+                    background-image: url(pokemon_pngs/typhlosion.png);
+        }
+        #Totodile {
+                    background-image: url(pokemon_pngs/totodile.png);
+        }
+        #Croconaw {
+                    background-image: url(pokemon_pngs/croconaw.png);
+        }
+        #Feraligatr {
+                    background-image: url(pokemon_pngs/feraligatr.png);
+        }
+        #Sentret {
+                    background-image: url(pokemon_pngs/sentret.png);
+        }
+        #Furret {
+                    background-image: url(pokemon_pngs/furret.png);
+        }
+        #Hoothoot {
+                    background-image: url(pokemon_pngs/hoothoot.png);
+        }
+        #Noctowl {
+                    background-image: url(pokemon_pngs/noctowl.png);
+        }
+        #Ledyba {
+                    background-image: url(pokemon_pngs/ledyba.png);
+        }
+        #Ledian {
+                    background-image: url(pokemon_pngs/ledian.png);
+        }
+        #Spinarak {
+                    background-image: url(pokemon_pngs/spinarak.png);
+        }
+        #Ariados {
+                    background-image: url(pokemon_pngs/ariados.png);
+        }
+        #Crobat {
+                    background-image: url(pokemon_pngs/crobat.png);
+        }
+        #Chinchou {
+                    background-image: url(pokemon_pngs/chinchou.png);
+        }
+        #Lanturn {
+                    background-image: url(pokemon_pngs/lanturn.png);
+        }
+        #Pichu {
+                    background-image: url(pokemon_pngs/pichu.png);
+        }
+        #Cleffa {
+                    background-image: url(pokemon_pngs/cleffa.png);
+        }
+        #Igglybuff {
+                    background-image: url(pokemon_pngs/igglybuff.png);
+        }
+        #Togepi {
+                    background-image: url(pokemon_pngs/togepi.png);
+        }
+        #Togetic {
+                    background-image: url(pokemon_pngs/togetic.png);
+        }
+        #Natu {
+                    background-image: url(pokemon_pngs/natu.png);
+        }
+        #Xatu {
+                    background-image: url(pokemon_pngs/xatu.png);
+        }
+        #Mareep {
+                    background-image: url(pokemon_pngs/mareep.png);
+        }
+        #Flaaffy {
+                    background-image: url(pokemon_pngs/flaaffy.png);
+        }
+        #Ampharos {
+                    background-image: url(pokemon_pngs/ampharos.png);
+        }
+        #Bellossom {
+                    background-image: url(pokemon_pngs/bellossom.png);
+        }
+        #Marill {
+                    background-image: url(pokemon_pngs/marill.png);
+        }
+        #Azumarill {
+                    background-image: url(pokemon_pngs/azumarill.png);
+        }
+        #Sudowoodo {
+                    background-image: url(pokemon_pngs/sudowoodo.png);
+        }
+        #Politoed {
+                    background-image: url(pokemon_pngs/politoed.png);
+        }
+        #Hoppip {
+                    background-image: url(pokemon_pngs/hoppip.png);
+        }
+        #Skiploom {
+                    background-image: url(pokemon_pngs/skiploom.png);
+        }
+        #Jumpluff {
+                    background-image: url(pokemon_pngs/jumpluff.png);
+        }
+        #Aipom {
+                    background-image: url(pokemon_pngs/aipom.png);
+        }
+        #Sunkern {
+                    background-image: url(pokemon_pngs/sunkern.png);
+        }
+        #Sunflora {
+                    background-image: url(pokemon_pngs/sunflora.png);
+        }
+        #Yanma {
+                    background-image: url(pokemon_pngs/yanma.png);
+        }
+        #Wooper {
+                    background-image: url(pokemon_pngs/wooper.png);
+        }
+        #Quagsire {
+                    background-image: url(pokemon_pngs/quagsire.png);
+        }
+        #Espeon {
+                    background-image: url(pokemon_pngs/espeon.png);
+        }
+        #Umbreon {
+                    background-image: url(pokemon_pngs/umbreon.png);
+        }
+        #Murkrow {
+                    background-image: url(pokemon_pngs/murkrow.png);
+        }
+        #Slowking {
+                    background-image: url(pokemon_pngs/slowking.png);
+        }
+        #Misdreavus {
+                    background-image: url(pokemon_pngs/misdreavus.png);
+        }
+        #Unown {
+                    background-image: url(pokemon_pngs/unown.png);
+        }
+        #Wobbuffet {
+                    background-image: url(pokemon_pngs/wobbuffet.png);
+        }
+        #Girafarig {
+                    background-image: url(pokemon_pngs/girafarig.png);
+        }
+        #Pineco {
+                    background-image: url(pokemon_pngs/pineco.png);
+        }
+        #Forretress {
+                    background-image: url(pokemon_pngs/forretress.png);
+        }
+        #Dunsparce {
+                    background-image: url(pokemon_pngs/dunsparce.png);
+        }
+        #Gligar {
+                    background-image: url(pokemon_pngs/gligar.png);
+        }
+        #Steelix {
+                    background-image: url(pokemon_pngs/steelix.png);
+        }
+        #Snubbull {
+                    background-image: url(pokemon_pngs/snubbull.png);
+        }
+        #Granbull {
+                    background-image: url(pokemon_pngs/granbull.png);
+        }
+        #Qwilfish {
+                    background-image: url(pokemon_pngs/qwilfish.png);
+        }
+        #Scizor {
+                    background-image: url(pokemon_pngs/scizor.png);
+        }
+        #Shuckle {
+                    background-image: url(pokemon_pngs/shuckle.png);
+        }
+        #Heracross {
+                    background-image: url(pokemon_pngs/heracross.png);
+        }
+        #Sneasel {
+                    background-image: url(pokemon_pngs/sneasel.png);
+        }
+        #Teddiursa {
+                    background-image: url(pokemon_pngs/teddiursa.png);
+        }
+        #Ursaring {
+                    background-image: url(pokemon_pngs/ursaring.png);
+        }
+        #Slugma {
+                    background-image: url(pokemon_pngs/slugma.png);
+        }
+        #Magcargo {
+                    background-image: url(pokemon_pngs/magcargo.png);
+        }
+        #Swinub {
+                    background-image: url(pokemon_pngs/swinub.png);
+        }
+        #Piloswine {
+                    background-image: url(pokemon_pngs/piloswine.png);
+        }
+        #Corsola {
+                    background-image: url(pokemon_pngs/corsola.png);
+        }
+        #Remoraid {
+                    background-image: url(pokemon_pngs/remoraid.png);
+        }
+        #Octillery {
+                    background-image: url(pokemon_pngs/octillery.png);
+        }
+        #Delibird {
+                    background-image: url(pokemon_pngs/delibird.png);
+        }
+        #Mantine {
+                    background-image: url(pokemon_pngs/mantine.png);
+        }
+        #Skarmory {
+                    background-image: url(pokemon_pngs/skarmory.png);
+        }
+        #Houndour {
+                    background-image: url(pokemon_pngs/houndour.png);
+        }
+        #Houndoom {
+                    background-image: url(pokemon_pngs/houndoom.png);
+        }
+        #Kingdra {
+                    background-image: url(pokemon_pngs/kingdra.png);
+        }
+        #Phanpy {
+                    background-image: url(pokemon_pngs/phanpy.png);
+        }
+        #Donphan {
+                    background-image: url(pokemon_pngs/donphan.png);
+        }
+        #Porygon2 {
+                    background-image: url(pokemon_pngs/porygon2.png);
+        }
+        #Stantler {
+                    background-image: url(pokemon_pngs/stantler.png);
+        }
+        #Smeargle {
+                    background-image: url(pokemon_pngs/smeargle.png);
+        }
+        #Tyrogue {
+                    background-image: url(pokemon_pngs/tyrogue.png);
+        }
+        #Hitmontop {
+                    background-image: url(pokemon_pngs/hitmontop.png);
+        }
+        #Smoochum {
+                    background-image: url(pokemon_pngs/smoochum.png);
+        }
+        #Elekid {
+                    background-image: url(pokemon_pngs/elekid.png);
+        }
+        #Magby {
+                    background-image: url(pokemon_pngs/magby.png);
+        }
+        #Miltank {
+                    background-image: url(pokemon_pngs/miltank.png);
+        }
+        #Blissey {
+                    background-image: url(pokemon_pngs/blissey.png);
+        }
+        #Raikou {
+                    background-image: url(pokemon_pngs/raikou.png);
+        }
+        #Entei {
+                    background-image: url(pokemon_pngs/entei.png);
+        }
+        #Suicune {
+                    background-image: url(pokemon_pngs/suicune.png);
+        }
+        #Larvitar {
+                    background-image: url(pokemon_pngs/larvitar.png);
+        }
+        #Pupitar {
+                    background-image: url(pokemon_pngs/pupitar.png);
+        }
+        #Tyranitar {
+                    background-image: url(pokemon_pngs/tyranitar.png);
+        }
+        #Lugia {
+                    background-image: url(pokemon_pngs/lugia.png);
+        }
+        #Celebi {
+                    background-image: url(pokemon_pngs/celebi.png);
+        }
+        #Treecko {
+                    background-image: url(pokemon_pngs/treecko.png);
+        }
+        #Grovyle {
+                    background-image: url(pokemon_pngs/grovyle.png);
+        }
+        #Sceptile {
+                    background-image: url(pokemon_pngs/sceptile.png);
+        }
+        #Torchic {
+                    background-image: url(pokemon_pngs/torchic.png);
+        }
+        #Combusken {
+                    background-image: url(pokemon_pngs/combusken.png);
+        }
+        #Blaziken {
+                    background-image: url(pokemon_pngs/blaziken.png);
+        }
+        #Mudkip {
+                    background-image: url(pokemon_pngs/mudkip.png);
+        }
+        #Marshtomp {
+                    background-image: url(pokemon_pngs/marshtomp.png);
+        }
+        #Swampert {
+                    background-image: url(pokemon_pngs/swampert.png);
+        }
+        #Poochyena {
+                    background-image: url(pokemon_pngs/poochyena.png);
+        }
+        #Mightyena {
+                    background-image: url(pokemon_pngs/mightyena.png);
+        }
+        #Zigzagoon {
+                    background-image: url(pokemon_pngs/zigzagoon.png);
+        }
+        #Linoone {
+                    background-image: url(pokemon_pngs/linoone.png);
+        }
+        #Wurmple {
+                    background-image: url(pokemon_pngs/wurmple.png);
+        }
+        #Silcoon {
+                    background-image: url(pokemon_pngs/silcoon.png);
+        }
+        #Beautifly {
+                    background-image: url(pokemon_pngs/beautifly.png);
+        }
+        #Cascoon {
+                    background-image: url(pokemon_pngs/cascoon.png);
+        }
+        #Dustox {
+                    background-image: url(pokemon_pngs/dustox.png);
+        }
+        #Lotad {
+                    background-image: url(pokemon_pngs/lotad.png);
+        }
+        #Lombre {
+                    background-image: url(pokemon_pngs/lombre.png);
+        }
+        #Ludicolo {
+                    background-image: url(pokemon_pngs/ludicolo.png);
+        }
+        #Seedot {
+                    background-image: url(pokemon_pngs/seedot.png);
+        }
+        #Nuzleaf {
+                    background-image: url(pokemon_pngs/nuzleaf.png);
+        }
+        #Shiftry {
+                    background-image: url(pokemon_pngs/shiftry.png);
+        }
+        #Taillow {
+                    background-image: url(pokemon_pngs/taillow.png);
+        }
+        #Swellow {
+                    background-image: url(pokemon_pngs/swellow.png);
+        }
+        #Wingull {
+                    background-image: url(pokemon_pngs/wingull.png);
+        }
+        #Pelipper {
+                    background-image: url(pokemon_pngs/pelipper.png);
+        }
+        #Ralts {
+                    background-image: url(pokemon_pngs/ralts.png);
+        }
+        #Kirlia {
+                    background-image: url(pokemon_pngs/kirlia.png);
+        }
+        #Gardevoir {
+                    background-image: url(pokemon_pngs/gardevoir.png);
+        }
+        #Surskit {
+                    background-image: url(pokemon_pngs/surskit.png);
+        }
+        #Masquerain {
+                    background-image: url(pokemon_pngs/masquerain.png);
+        }
+        #Shroomish {
+                    background-image: url(pokemon_pngs/shroomish.png);
+        }
+        #Breloom {
+                    background-image: url(pokemon_pngs/breloom.png);
+        }
+        #Slakoth {
+                    background-image: url(pokemon_pngs/slakoth.png);
+        }
+        #Vigoroth {
+                    background-image: url(pokemon_pngs/vigoroth.png);
+        }
+        #Slaking {
+                    background-image: url(pokemon_pngs/slaking.png);
+        }
+        #Nincada {
+                    background-image: url(pokemon_pngs/nincada.png);
+        }
+        #Ninjask {
+                    background-image: url(pokemon_pngs/ninjask.png);
+        }
+        #Shedinja {
+                    background-image: url(pokemon_pngs/shedinja.png);
+        }
+        #Whismur {
+                    background-image: url(pokemon_pngs/whismur.png);
+        }
+        #Loudred {
+                    background-image: url(pokemon_pngs/loudred.png);
+        }
+        #Exploud {
+                    background-image: url(pokemon_pngs/exploud.png);
+        }
+        #Makuhita {
+                    background-image: url(pokemon_pngs/makuhita.png);
+        }
+        #Hariyama {
+                    background-image: url(pokemon_pngs/hariyama.png);
+        }
+        #Azurill {
+                    background-image: url(pokemon_pngs/azurill.png);
+        }
+        #Nosepass {
+                    background-image: url(pokemon_pngs/nosepass.png);
+        }
+        #Skitty {
+                    background-image: url(pokemon_pngs/skitty.png);
+        }
+        #Delcatty {
+                    background-image: url(pokemon_pngs/delcatty.png);
+        }
+        #Sableye {
+                    background-image: url(pokemon_pngs/sableye.png);
+        }
+        #Mawile {
+                    background-image: url(pokemon_pngs/mawile.png);
+        }
+        #Aron {
+                    background-image: url(pokemon_pngs/aron.png);
+        }
+        #Lairon {
+                    background-image: url(pokemon_pngs/lairon.png);
+        }
+        #Aggron {
+                    background-image: url(pokemon_pngs/aggron.png);
+        }
+        #Meditite {
+                    background-image: url(pokemon_pngs/meditite.png);
+        }
+        #Medicham {
+                    background-image: url(pokemon_pngs/medicham.png);
+        }
+        #Electrike {
+                    background-image: url(pokemon_pngs/electrike.png);
+        }
+        #Manectric {
+                    background-image: url(pokemon_pngs/manectric.png);
+        }
+        #Plusle {
+                    background-image: url(pokemon_pngs/plusle.png);
+        }
+        #Minun {
+                    background-image: url(pokemon_pngs/minun.png);
+        }
+        #Volbeat {
+                    background-image: url(pokemon_pngs/volbeat.png);
+        }
+        #Illumise {
+                    background-image: url(pokemon_pngs/illumise.png);
+        }
+        #Roselia {
+                    background-image: url(pokemon_pngs/roselia.png);
+        }
+        #Gulpin {
+                    background-image: url(pokemon_pngs/gulpin.png);
+        }
+        #Swalot {
+                    background-image: url(pokemon_pngs/swalot.png);
+        }
+        #Carvanha {
+                    background-image: url(pokemon_pngs/carvanha.png);
+        }
+        #Sharpedo {
+                    background-image: url(pokemon_pngs/sharpedo.png);
+        }
+        #Wailmer {
+                    background-image: url(pokemon_pngs/wailmer.png);
+        }
+        #Wailord {
+                    background-image: url(pokemon_pngs/wailord.png);
+        }
+        #Numel {
+                    background-image: url(pokemon_pngs/numel.png);
+        }
+        #Camerupt {
+                    background-image: url(pokemon_pngs/camerupt.png);
+        }
+        #Torkoal {
+                    background-image: url(pokemon_pngs/torkoal.png);
+        }
+        #Spoink {
+                    background-image: url(pokemon_pngs/spoink.png);
+        }
+        #Grumpig {
+                    background-image: url(pokemon_pngs/grumpig.png);
+        }
+        #Spinda {
+                    background-image: url(pokemon_pngs/spinda.png);
+        }
+        #Trapinch {
+                    background-image: url(pokemon_pngs/trapinch.png);
+        }
+        #Vibrava {
+                    background-image: url(pokemon_pngs/vibrava.png);
+        }
+        #Flygon {
+                    background-image: url(pokemon_pngs/flygon.png);
+        }
+        #Cacnea {
+                    background-image: url(pokemon_pngs/cacnea.png);
+        }
+        #Cacturne {
+                    background-image: url(pokemon_pngs/cacturne.png);
+        }
+        #Swablu {
+                    background-image: url(pokemon_pngs/swablu.png);
+        }
+        #Altaria {
+                    background-image: url(pokemon_pngs/altaria.png);
+        }
+        #Zangoose {
+                    background-image: url(pokemon_pngs/zangoose.png);
+        }
+        #Seviper {
+                    background-image: url(pokemon_pngs/seviper.png);
+        }
+        #Lunatone {
+                    background-image: url(pokemon_pngs/lunatone.png);
+        }
+        #Solrock {
+                    background-image: url(pokemon_pngs/solrock.png);
+        }
+        #Barboach {
+                    background-image: url(pokemon_pngs/barboach.png);
+        }
+        #Whiscash {
+                    background-image: url(pokemon_pngs/whiscash.png);
+        }
+        #Corphish {
+                    background-image: url(pokemon_pngs/corphish.png);
+        }
+        #Crawdaunt {
+                    background-image: url(pokemon_pngs/crawdaunt.png);
+        }
+        #Baltoy {
+                    background-image: url(pokemon_pngs/baltoy.png);
+        }
+        #Claydol {
+                    background-image: url(pokemon_pngs/claydol.png);
+        }
+        #Lileep {
+                    background-image: url(pokemon_pngs/lileep.png);
+        }
+        #Cradily {
+                    background-image: url(pokemon_pngs/cradily.png);
+        }
+        #Anorith {
+                    background-image: url(pokemon_pngs/anorith.png);
+        }
+        #Armaldo {
+                    background-image: url(pokemon_pngs/armaldo.png);
+        }
+        #Feebas {
+                    background-image: url(pokemon_pngs/feebas.png);
+        }
+        #Milotic {
+                    background-image: url(pokemon_pngs/milotic.png);
+        }
+        #Castform {
+                    background-image: url(pokemon_pngs/castform.png);
+        }
+        #Kecleon {
+                    background-image: url(pokemon_pngs/kecleon.png);
+        }
+        #Shuppet {
+                    background-image: url(pokemon_pngs/shuppet.png);
+        }
+        #Banette {
+                    background-image: url(pokemon_pngs/banette.png);
+        }
+        #Duskull {
+                    background-image: url(pokemon_pngs/duskull.png);
+        }
+        #Dusclops {
+                    background-image: url(pokemon_pngs/dusclops.png);
+        }
+        #Tropius {
+                    background-image: url(pokemon_pngs/tropius.png);
+        }
+        #Chimecho {
+                    background-image: url(pokemon_pngs/chimecho.png);
+        }
+        #Absol {
+                    background-image: url(pokemon_pngs/absol.png);
+        }
+        #Wynaut {
+                    background-image: url(pokemon_pngs/wynaut.png);
+        }
+        #Snorunt {
+                    background-image: url(pokemon_pngs/snorunt.png);
+        }
+        #Glalie {
+                    background-image: url(pokemon_pngs/glalie.png);
+        }
+        #Spheal {
+                    background-image: url(pokemon_pngs/spheal.png);
+        }
+        #Sealeo {
+                    background-image: url(pokemon_pngs/sealeo.png);
+        }
+        #Walrein {
+                    background-image: url(pokemon_pngs/walrein.png);
+        }
+        #Clamperl {
+                    background-image: url(pokemon_pngs/clamperl.png);
+        }
+        #Huntail {
+                    background-image: url(pokemon_pngs/huntail.png);
+        }
+        #Gorebyss {
+                    background-image: url(pokemon_pngs/gorebyss.png);
+        }
+        #Relicanth {
+                    background-image: url(pokemon_pngs/relicanth.png);
+        }
+        #Luvdisc {
+                    background-image: url(pokemon_pngs/luvdisc.png);
+        }
+        #Bagon {
+                    background-image: url(pokemon_pngs/bagon.png);
+        }
+        #Shelgon {
+                    background-image: url(pokemon_pngs/shelgon.png);
+        }
+        #Salamence {
+                    background-image: url(pokemon_pngs/salamence.png);
+        }
+        #Beldum {
+                    background-image: url(pokemon_pngs/beldum.png);
+        }
+        #Metang {
+                    background-image: url(pokemon_pngs/metang.png);
+        }
+        #Metagross {
+                    background-image: url(pokemon_pngs/metagross.png);
+        }
+        #Regirock {
+                    background-image: url(pokemon_pngs/regirock.png);
+        }
+        #Regice {
+                    background-image: url(pokemon_pngs/regice.png);
+        }
+        #Registeel {
+                    background-image: url(pokemon_pngs/registeel.png);
+        }
+        #Latias {
+                    background-image: url(pokemon_pngs/latias.png);
+        }
+        #Latios {
+                    background-image: url(pokemon_pngs/latios.png);
+        }
+        #Kyogre {
+                    background-image: url(pokemon_pngs/kyogre.png);
+        }
+        #Groudon {
+                    background-image: url(pokemon_pngs/groudon.png);
+        }
+        #Rayquaza {
+                    background-image: url(pokemon_pngs/rayquaza.png);
+        }
+        #Jirachi {
+                    background-image: url(pokemon_pngs/jirachi.png);
+        }
+        #Deoxys {
+                    background-image: url(pokemon_pngs/deoxys.png);
+        }
+        #Turtwig {
+                    background-image: url(pokemon_pngs/turtwig.png);
+        }
+        #Grotle {
+                    background-image: url(pokemon_pngs/grotle.png);
+        }
+        #Torterra {
+                    background-image: url(pokemon_pngs/torterra.png);
+        }
+        #Chimchar {
+                    background-image: url(pokemon_pngs/chimchar.png);
+        }
+        #Monferno {
+                    background-image: url(pokemon_pngs/monferno.png);
+        }
+        #Infernape {
+                    background-image: url(pokemon_pngs/infernape.png);
+        }
+        #Piplup {
+                    background-image: url(pokemon_pngs/piplup.png);
+        }
+        #Prinplup {
+                    background-image: url(pokemon_pngs/prinplup.png);
+        }
+        #Empoleon {
+                    background-image: url(pokemon_pngs/empoleon.png);
+        }
+        #Starly {
+                    background-image: url(pokemon_pngs/starly.png);
+        }
+        #Staravia {
+                    background-image: url(pokemon_pngs/staravia.png);
+        }
+        #Staraptor {
+                    background-image: url(pokemon_pngs/staraptor.png);
+        }
+        #Bidoof {
+                    background-image: url(pokemon_pngs/bidoof.png);
+        }
+        #Bibarel {
+                    background-image: url(pokemon_pngs/bibarel.png);
+        }
+        #Kricketot {
+                    background-image: url(pokemon_pngs/kricketot.png);
+        }
+        #Kricketune {
+                    background-image: url(pokemon_pngs/kricketune.png);
+        }
+        #Shinx {
+                    background-image: url(pokemon_pngs/shinx.png);
+        }
+        #Luxio {
+                    background-image: url(pokemon_pngs/luxio.png);
+        }
+        #Luxray {
+                    background-image: url(pokemon_pngs/luxray.png);
+        }
+        #Budew {
+                    background-image: url(pokemon_pngs/budew.png);
+        }
+        #Roserade {
+                    background-image: url(pokemon_pngs/roserade.png);
+        }
+        #Cranidos {
+                    background-image: url(pokemon_pngs/cranidos.png);
+        }
+        #Rampardos {
+                    background-image: url(pokemon_pngs/rampardos.png);
+        }
+        #Shieldon {
+                    background-image: url(pokemon_pngs/shieldon.png);
+        }
+        #Bastiodon {
+                    background-image: url(pokemon_pngs/bastiodon.png);
+        }
+        #Burmy {
+                    background-image: url(pokemon_pngs/burmy.png);
+        }
+        #Wormadam {
+                    background-image: url(pokemon_pngs/wormadam.png);
+        }
+        #Mothim {
+                    background-image: url(pokemon_pngs/mothim.png);
+        }
+        #Combee {
+                    background-image: url(pokemon_pngs/combee.png);
+        }
+        #Vespiquen {
+                    background-image: url(pokemon_pngs/vespiquen.png);
+        }
+        #Pachirisu {
+                    background-image: url(pokemon_pngs/pachirisu.png);
+        }
+        #Buizel {
+                    background-image: url(pokemon_pngs/buizel.png);
+        }
+        #Floatzel {
+                    background-image: url(pokemon_pngs/floatzel.png);
+        }
+        #Cherubi {
+                    background-image: url(pokemon_pngs/cherubi.png);
+        }
+        #Cherrim {
+                    background-image: url(pokemon_pngs/cherrim.png);
+        }
+        #Shellos {
+                    background-image: url(pokemon_pngs/shellos.png);
+        }
+        #Gastrodon {
+                    background-image: url(pokemon_pngs/gastrodon.png);
+        }
+        #Ambipom {
+                    background-image: url(pokemon_pngs/ambipom.png);
+        }
+        #Drifloon {
+                    background-image: url(pokemon_pngs/drifloon.png);
+        }
+        #Drifblim {
+                    background-image: url(pokemon_pngs/drifblim.png);
+        }
+        #Buneary {
+                    background-image: url(pokemon_pngs/buneary.png);
+        }
+        #Lopunny {
+                    background-image: url(pokemon_pngs/lopunny.png);
+        }
+        #Mismagius {
+                    background-image: url(pokemon_pngs/mismagius.png);
+        }
+        #Honchkrow {
+                    background-image: url(pokemon_pngs/honchkrow.png);
+        }
+        #Glameow {
+                    background-image: url(pokemon_pngs/glameow.png);
+        }
+        #Purugly {
+                    background-image: url(pokemon_pngs/purugly.png);
+        }
+        #Chingling {
+                    background-image: url(pokemon_pngs/chingling.png);
+        }
+        #Stunky {
+                    background-image: url(pokemon_pngs/stunky.png);
+        }
+        #Skuntank {
+                    background-image: url(pokemon_pngs/skuntank.png);
+        }
+        #Bronzor {
+                    background-image: url(pokemon_pngs/bronzor.png);
+        }
+        #Bronzong {
+                    background-image: url(pokemon_pngs/bronzong.png);
+        }
+        #Bonsly {
+                    background-image: url(pokemon_pngs/bonsly.png);
+        }
+        #Mime_Jr {
+                    background-image: url(pokemon_pngs/mime_jr.png);
+        }
+        #Happiny {
+                    background-image: url(pokemon_pngs/happiny.png);
+        }
+        #Chatot {
+                    background-image: url(pokemon_pngs/chatot.png);
+        }
+        #Spiritomb {
+                    background-image: url(pokemon_pngs/spiritomb.png);
+        }
+        #Gible {
+                    background-image: url(pokemon_pngs/gible.png);
+        }
+        #Gabite {
+                    background-image: url(pokemon_pngs/gabite.png);
+        }
+        #Garchomp {
+                    background-image: url(pokemon_pngs/garchomp.png);
+        }
+        #Munchlax {
+                    background-image: url(pokemon_pngs/munchlax.png);
+        }
+        #Riolu {
+                    background-image: url(pokemon_pngs/riolu.png);
+        }
+        #Lucario {
+                    background-image: url(pokemon_pngs/lucario.png);
+        }
+        #Hippopotas {
+                    background-image: url(pokemon_pngs/hippopotas.png);
+        }
+        #Hippowdon {
+                    background-image: url(pokemon_pngs/hippowdon.png);
+        }
+        #Skorupi {
+                    background-image: url(pokemon_pngs/skorupi.png);
+        }
+        #Drapion {
+                    background-image: url(pokemon_pngs/drapion.png);
+        }
+        #Croagunk {
+                    background-image: url(pokemon_pngs/croagunk.png);
+        }
+        #Toxicroak {
+                    background-image: url(pokemon_pngs/toxicroak.png);
+        }
+        #Carnivine {
+                    background-image: url(pokemon_pngs/carnivine.png);
+        }
+        #Finneon {
+                    background-image: url(pokemon_pngs/finneon.png);
+        }
+        #Lumineon {
+                    background-image: url(pokemon_pngs/lumineon.png);
+        }
+        #Mantyke {
+                    background-image: url(pokemon_pngs/mantyke.png);
+        }
+        #Snover {
+                    background-image: url(pokemon_pngs/snover.png);
+        }
+        #Abomasnow {
+                    background-image: url(pokemon_pngs/abomasnow.png);
+        }
+        #Weavile {
+                    background-image: url(pokemon_pngs/weavile.png);
+        }
+        #Magnezone {
+                    background-image: url(pokemon_pngs/magnezone.png);
+        }
+        #Lickilicky {
+                    background-image: url(pokemon_pngs/lickilicky.png);
+        }
+        #Rhyperior {
+                    background-image: url(pokemon_pngs/rhyperior.png);
+        }
+        #Tangrowth {
+                    background-image: url(pokemon_pngs/tangrowth.png);
+        }
+        #Electivire {
+                    background-image: url(pokemon_pngs/electivire.png);
+        }
+        #Magmortar {
+                    background-image: url(pokemon_pngs/magmortar.png);
+        }
+        #Togekiss {
+                    background-image: url(pokemon_pngs/togekiss.png);
+        }
+        #Yanmega {
+                    background-image: url(pokemon_pngs/yanmega.png);
+        }
+        #Leafeon {
+                    background-image: url(pokemon_pngs/leafeon.png);
+        }
+        #Glaceon {
+                    background-image: url(pokemon_pngs/glaceon.png);
+        }
+        #Gliscor {
+                    background-image: url(pokemon_pngs/gliscor.png);
+        }
+        #Mamoswine {
+                    background-image: url(pokemon_pngs/mamoswine.png);
+        }
+        #Gallade {
+                    background-image: url(pokemon_pngs/gallade.png);
+        }
+        #Probopass {
+                    background-image: url(pokemon_pngs/probopass.png);
+        }
+        #Dusknoir {
+                    background-image: url(pokemon_pngs/dusknoir.png);
+        }
+        #Froslass {
+                    background-image: url(pokemon_pngs/froslass.png);
+        }
+        #Rotom {
+                    background-image: url(pokemon_pngs/rotom.png);
+        }
+        #Uxie {
+                    background-image: url(pokemon_pngs/uxie.png);
+        }
+        #Mesprit {
+                    background-image: url(pokemon_pngs/mesprit.png);
+        }
+        #Azelf {
+                    background-image: url(pokemon_pngs/azelf.png);
+        }
+        #Dialga {
+                    background-image: url(pokemon_pngs/dialga.png);
+        }
+        #Palkia {
+                    background-image: url(pokemon_pngs/palkia.png);
+        }
+        #Heatran {
+                    background-image: url(pokemon_pngs/heatran.png);
+        }
+        #Regigigas {
+                    background-image: url(pokemon_pngs/regigigas.png);
+        }
+        #Giratina {
+                    background-image: url(pokemon_pngs/giratina.png);
+        }
+        #Cresselia {
+                    background-image: url(pokemon_pngs/cresselia.png);
+        }
+        #Phione {
+                    background-image: url(pokemon_pngs/phione.png);
+        }
+        #Manaphy {
+                    background-image: url(pokemon_pngs/manaphy.png);
+        }
+        #Darkrai {
+                    background-image: url(pokemon_pngs/darkrai.png);
+        }
+        #Shaymin {
+                    background-image: url(pokemon_pngs/shaymin.png);
+        }
+        #Arceus {
+                    background-image: url(pokemon_pngs/arceus.png);
+        }
+        #Victini {
+                    background-image: url(pokemon_pngs/victini.png);
+        }
+        #Snivy {
+                    background-image: url(pokemon_pngs/snivy.png);
+        }
+        #Servine {
+                    background-image: url(pokemon_pngs/servine.png);
+        }
+        #Serperior {
+                    background-image: url(pokemon_pngs/serperior.png);
+        }
+        #Tepig {
+                    background-image: url(pokemon_pngs/tepig.png);
+        }
+        #Pignite {
+                    background-image: url(pokemon_pngs/pignite.png);
+        }
+        #Emboar {
+                    background-image: url(pokemon_pngs/emboar.png);
+        }
+        #Oshawott {
+                    background-image: url(pokemon_pngs/oshawott.png);
+        }
+        #Dewott {
+                    background-image: url(pokemon_pngs/dewott.png);
+        }
+        #Samurott {
+                    background-image: url(pokemon_pngs/samurott.png);
+        }
+        #Patrat {
+                    background-image: url(pokemon_pngs/patrat.png);
+        }
+        #Watchog {
+                    background-image: url(pokemon_pngs/watchog.png);
+        }
+        #Lillipup {
+                    background-image: url(pokemon_pngs/lillipup.png);
+        }
+        #Herdier {
+                    background-image: url(pokemon_pngs/herdier.png);
+        }
+        #Stoutland {
+                    background-image: url(pokemon_pngs/stoutland.png);
+        }
+        #Purrloin {
+                    background-image: url(pokemon_pngs/purrloin.png);
+        }
+        #Liepard {
+                    background-image: url(pokemon_pngs/liepard.png);
+        }
+        #Pansage {
+                    background-image: url(pokemon_pngs/pansage.png);
+        }
+        #Simisage {
+                    background-image: url(pokemon_pngs/simisage.png);
+        }
+        #Pansear {
+                    background-image: url(pokemon_pngs/pansear.png);
+        }
+        #Simisear {
+                    background-image: url(pokemon_pngs/simisear.png);
+        }
+        #Panpour {
+                    background-image: url(pokemon_pngs/panpour.png);
+        }
+        #Simipour {
+                    background-image: url(pokemon_pngs/simipour.png);
+        }
+        #Munna {
+                    background-image: url(pokemon_pngs/munna.png);
+        }
+        #Musharna {
+                    background-image: url(pokemon_pngs/musharna.png);
+        }
+        #Pidove {
+                    background-image: url(pokemon_pngs/pidove.png);
+        }
+        #Tranquill {
+                    background-image: url(pokemon_pngs/tranquill.png);
+        }
+        #Unfezant {
+                    background-image: url(pokemon_pngs/unfezant.png);
+        }
+        #Blitzle {
+                    background-image: url(pokemon_pngs/blitzle.png);
+        }
+        #Zebstrika {
+                    background-image: url(pokemon_pngs/zebstrika.png);
+        }
+        #Roggenrola {
+                    background-image: url(pokemon_pngs/roggenrola.png);
+        }
+        #Boldore {
+                    background-image: url(pokemon_pngs/boldore.png);
+        }
+        #Gigalith {
+                    background-image: url(pokemon_pngs/gigalith.png);
+        }
+        #Woobat {
+                    background-image: url(pokemon_pngs/woobat.png);
+        }
+        #Swoobat {
+                    background-image: url(pokemon_pngs/swoobat.png);
+        }
+        #Drilbur {
+                    background-image: url(pokemon_pngs/drilbur.png);
+        }
+        #Excadrill {
+                    background-image: url(pokemon_pngs/excadrill.png);
+        }
+        #Audino {
+                    background-image: url(pokemon_pngs/audino.png);
+        }
+        #Timburr {
+                    background-image: url(pokemon_pngs/timburr.png);
+        }
+        #Gurdurr {
+                    background-image: url(pokemon_pngs/gurdurr.png);
+        }
+        #Conkeldurr {
+                    background-image: url(pokemon_pngs/conkeldurr.png);
+        }
+        #Tympole {
+                    background-image: url(pokemon_pngs/tympole.png);
+        }
+        #Palpitoad {
+                    background-image: url(pokemon_pngs/palpitoad.png);
+        }
+        #Seismitoad {
+                    background-image: url(pokemon_pngs/seismitoad.png);
+        }
+        #Throh {
+                    background-image: url(pokemon_pngs/throh.png);
+        }
+        #Sawk {
+                    background-image: url(pokemon_pngs/sawk.png);
+        }
+        #Sewaddle {
+                    background-image: url(pokemon_pngs/sewaddle.png);
+        }
+        #Swadloon {
+                    background-image: url(pokemon_pngs/swadloon.png);
+        }
+        #Leavanny {
+                    background-image: url(pokemon_pngs/leavanny.png);
+        }
+        #Venipede {
+                    background-image: url(pokemon_pngs/venipede.png);
+        }
+        #Whirlipede {
+                    background-image: url(pokemon_pngs/whirlipede.png);
+        }
+        #Scolipede {
+                    background-image: url(pokemon_pngs/scolipede.png);
+        }
+        #Cottonee {
+                    background-image: url(pokemon_pngs/cottonee.png);
+        }
+        #Whimsicott {
+                    background-image: url(pokemon_pngs/whimsicott.png);
+        }
+        #Petilil {
+                    background-image: url(pokemon_pngs/petilil.png);
+        }
+        #Lilligant {
+                    background-image: url(pokemon_pngs/lilligant.png);
+        }
+        #Basculin {
+                    background-image: url(pokemon_pngs/basculin.png);
+        }
+        #Sandile {
+                    background-image: url(pokemon_pngs/sandile.png);
+        }
+        #Krokorok {
+                    background-image: url(pokemon_pngs/krokorok.png);
+        }
+        #Krookodile {
+                    background-image: url(pokemon_pngs/krookodile.png);
+        }
+        #Darumaka {
+                    background-image: url(pokemon_pngs/darumaka.png);
+        }
+        #Darmanitan {
+                    background-image: url(pokemon_pngs/darmanitan.png);
+        }
+        #Maractus {
+                    background-image: url(pokemon_pngs/maractus.png);
+        }
+        #Dwebble {
+                    background-image: url(pokemon_pngs/dwebble.png);
+        }
+        #Crustle {
+                    background-image: url(pokemon_pngs/crustle.png);
+        }
+        #Scraggy {
+                    background-image: url(pokemon_pngs/scraggy.png);
+        }
+        #Scrafty {
+                    background-image: url(pokemon_pngs/scrafty.png);
+        }
+        #Sigilyph {
+                    background-image: url(pokemon_pngs/sigilyph.png);
+        }
+        #Yamask {
+                    background-image: url(pokemon_pngs/yamask.png);
+        }
+        #Cofagrigus {
+                    background-image: url(pokemon_pngs/cofagrigus.png);
+        }
+        #Tirtouga {
+                    background-image: url(pokemon_pngs/tirtouga.png);
+        }
+        #Carracosta {
+                    background-image: url(pokemon_pngs/carracosta.png);
+        }
+        #Archen {
+                    background-image: url(pokemon_pngs/archen.png);
+        }
+        #Archeops {
+                    background-image: url(pokemon_pngs/archeops.png);
+        }
+        #Trubbish {
+                    background-image: url(pokemon_pngs/trubbish.png);
+        }
+        #Garbodor {
+                    background-image: url(pokemon_pngs/garbodor.png);
+        }
+        #Zorua {
+                    background-image: url(pokemon_pngs/zorua.png);
+        }
+        #Zoroark {
+                    background-image: url(pokemon_pngs/zoroark.png);
+        }
+        #Minccino {
+                    background-image: url(pokemon_pngs/minccino.png);
+        }
+        #Cinccino {
+                    background-image: url(pokemon_pngs/cinccino.png);
+        }
+        #Gothita {
+                    background-image: url(pokemon_pngs/gothita.png);
+        }
+        #Gothorita {
+                    background-image: url(pokemon_pngs/gothorita.png);
+        }
+        #Gothitelle {
+                    background-image: url(pokemon_pngs/gothitelle.png);
+        }
+        #Solosis {
+                    background-image: url(pokemon_pngs/solosis.png);
+        }
+        #Duosion {
+                    background-image: url(pokemon_pngs/duosion.png);
+        }
+        #Reuniclus {
+                    background-image: url(pokemon_pngs/reuniclus.png);
+        }
+        #Ducklett {
+                    background-image: url(pokemon_pngs/ducklett.png);
+        }
+        #Swanna {
+                    background-image: url(pokemon_pngs/swanna.png);
+        }
+        #Vanillite {
+                    background-image: url(pokemon_pngs/vanillite.png);
+        }
+        #Vanillish {
+                    background-image: url(pokemon_pngs/vanillish.png);
+        }
+        #Vanilluxe {
+                    background-image: url(pokemon_pngs/vanilluxe.png);
+        }
+        #Deerling {
+                    background-image: url(pokemon_pngs/deerling.png);
+        }
+        #Sawsbuck {
+                    background-image: url(pokemon_pngs/sawsbuck.png);
+        }
+        #Emolga {
+                    background-image: url(pokemon_pngs/emolga.png);
+        }
+        #Karrablast {
+                    background-image: url(pokemon_pngs/karrablast.png);
+        }
+        #Escavalier {
+                    background-image: url(pokemon_pngs/escavalier.png);
+        }
+        #Foongus {
+                    background-image: url(pokemon_pngs/foongus.png);
+        }
+        #Amoonguss {
+                    background-image: url(pokemon_pngs/amoonguss.png);
+        }
+        #Frillish {
+                    background-image: url(pokemon_pngs/frillish.png);
+        }
+        #Jellicent {
+                    background-image: url(pokemon_pngs/jellicent.png);
+        }
+        #Alomomola {
+                    background-image: url(pokemon_pngs/alomomola.png);
+        }
+        #Joltik {
+                    background-image: url(pokemon_pngs/joltik.png);
+        }
+        #Galvantula {
+                    background-image: url(pokemon_pngs/galvantula.png);
+        }
+        #Ferroseed {
+                    background-image: url(pokemon_pngs/ferroseed.png);
+        }
+        #Ferrothorn {
+                    background-image: url(pokemon_pngs/ferrothorn.png);
+        }
+        #Klink {
+                    background-image: url(pokemon_pngs/klink.png);
+        }
+        #Klang {
+                    background-image: url(pokemon_pngs/klang.png);
+        }
+        #Klinklang {
+                    background-image: url(pokemon_pngs/klinklang.png);
+        }
+        #Tynamo {
+                    background-image: url(pokemon_pngs/tynamo.png);
+        }
+        #Eelektrik {
+                    background-image: url(pokemon_pngs/eelektrik.png);
+        }
+        #Eelektross {
+                    background-image: url(pokemon_pngs/eelektross.png);
+        }
+        #Elgyem {
+                    background-image: url(pokemon_pngs/elgyem.png);
+        }
+        #Beheeyem {
+                    background-image: url(pokemon_pngs/beheeyem.png);
+        }
+        #Litwick {
+                    background-image: url(pokemon_pngs/litwick.png);
+        }
+        #Lampent {
+                    background-image: url(pokemon_pngs/lampent.png);
+        }
+        #Chandelure {
+                    background-image: url(pokemon_pngs/chandelure.png);
+        }
+        #Axew {
+                    background-image: url(pokemon_pngs/axew.png);
+        }
+        #Fraxure {
+                    background-image: url(pokemon_pngs/fraxure.png);
+        }
+        #Haxorus {
+                    background-image: url(pokemon_pngs/haxorus.png);
+        }
+        #Cubchoo {
+                    background-image: url(pokemon_pngs/cubchoo.png);
+        }
+        #Beartic {
+                    background-image: url(pokemon_pngs/beartic.png);
+        }
+        #Cryogonal {
+                    background-image: url(pokemon_pngs/cryogonal.png);
+        }
+        #Shelmet {
+                    background-image: url(pokemon_pngs/shelmet.png);
+        }
+        #Accelgor {
+                    background-image: url(pokemon_pngs/accelgor.png);
+        }
+        #Stunfisk {
+                    background-image: url(pokemon_pngs/stunfisk.png);
+        }
+        #Mienfoo {
+                    background-image: url(pokemon_pngs/mienfoo.png);
+        }
+        #Mienshao {
+                    background-image: url(pokemon_pngs/mienshao.png);
+        }
+        #Druddigon {
+                    background-image: url(pokemon_pngs/druddigon.png);
+        }
+        #Golett {
+                    background-image: url(pokemon_pngs/golett.png);
+        }
+        #Golurk {
+                    background-image: url(pokemon_pngs/golurk.png);
+        }
+        #Pawniard {
+                    background-image: url(pokemon_pngs/pawniard.png);
+        }
+        #Bisharp {
+                    background-image: url(pokemon_pngs/bisharp.png);
+        }
+        #Bouffalant {
+                    background-image: url(pokemon_pngs/bouffalant.png);
+        }
+        #Rufflet {
+                    background-image: url(pokemon_pngs/rufflet.png);
+        }
+        #Braviary {
+                    background-image: url(pokemon_pngs/braviary.png);
+        }
+        #Vullaby {
+                    background-image: url(pokemon_pngs/vullaby.png);
+        }
+        #Mandibuzz {
+                    background-image: url(pokemon_pngs/mandibuzz.png);
+        }
+        #Heatmor {
+                    background-image: url(pokemon_pngs/heatmor.png);
+        }
+        #Durant {
+                    background-image: url(pokemon_pngs/durant.png);
+        }
+        #Deino {
+                    background-image: url(pokemon_pngs/deino.png);
+        }
+        #Zweilous {
+                    background-image: url(pokemon_pngs/zweilous.png);
+        }
+        #Hydreigon {
+                    background-image: url(pokemon_pngs/hydreigon.png);
+        }
+        #Larvesta {
+                    background-image: url(pokemon_pngs/larvesta.png);
+        }
+        #Volcarona {
+                    background-image: url(pokemon_pngs/volcarona.png);
+        }
+        #Cobalion {
+                    background-image: url(pokemon_pngs/cobalion.png);
+        }
+        #Terrakion {
+                    background-image: url(pokemon_pngs/terrakion.png);
+        }
+        #Virizion {
+                    background-image: url(pokemon_pngs/virizion.png);
+        }
+        #Tornadus {
+                    background-image: url(pokemon_pngs/tornadus.png);
+        }
+        #Thundurus {
+                    background-image: url(pokemon_pngs/thundurus.png);
+        }
+        #Reshiram {
+                    background-image: url(pokemon_pngs/reshiram.png);
+        }
+        #Zekrom {
+                    background-image: url(pokemon_pngs/zekrom.png);
+        }
+        #Landorus {
+                    background-image: url(pokemon_pngs/landorus.png);
+        }
+        #Kyurem {
+                    background-image: url(pokemon_pngs/kyurem.png);
+        }
+        #Keldeo {
+                    background-image: url(pokemon_pngs/keldeo.png);
+        }
+        #Meloetta {
+                    background-image: url(pokemon_pngs/meloetta.png);
+        }
+        #Genesect {
+                    background-image: url(pokemon_pngs/genesect.png);
+        }
+        #Chespin {
+                    background-image: url(pokemon_pngs/chespin.png);
+        }
+        #Quilladin {
+                    background-image: url(pokemon_pngs/quilladin.png);
+        }
+        #Chesnaught {
+                    background-image: url(pokemon_pngs/chesnaught.png);
+        }
+        #Fennekin {
+                    background-image: url(pokemon_pngs/fennekin.png);
+        }
+        #Braixen {
+                    background-image: url(pokemon_pngs/braixen.png);
+        }
+        #Delphox {
+                    background-image: url(pokemon_pngs/delphox.png);
+        }
+        #Froakie {
+                    background-image: url(pokemon_pngs/froakie.png);
+        }
+        #Frogadier {
+                    background-image: url(pokemon_pngs/frogadier.png);
+        }
+        #Greninja {
+                    background-image: url(pokemon_pngs/greninja.png);
+        }
+        #Bunnelby {
+                    background-image: url(pokemon_pngs/bunnelby.png);
+        }
+        #Diggersby {
+                    background-image: url(pokemon_pngs/diggersby.png);
+        }
+        #Fletchling {
+                    background-image: url(pokemon_pngs/fletchling.png);
+        }
+        #Fletchinder {
+                    background-image: url(pokemon_pngs/fletchinder.png);
+        }
+        #Talonflame {
+                    background-image: url(pokemon_pngs/talonflame.png);
+        }
+        #Scatterbug {
+                    background-image: url(pokemon_pngs/scatterbug.png);
+        }
+        #Spewpa {
+                    background-image: url(pokemon_pngs/spewpa.png);
+        }
+        #Vivillon {
+                    background-image: url(pokemon_pngs/vivillon.png);
+        }
+        #Litleo {
+                    background-image: url(pokemon_pngs/litleo.png);
+        }
+        #Pyroar {
+                    background-image: url(pokemon_pngs/pyroar.png);
+        }
+        #Flabébé {
+                    background-image: url(pokemon_pngs/flabébé.png);
+        }
+        #Floette {
+                    background-image: url(pokemon_pngs/floette.png);
+        }
+        #Florges {
+                    background-image: url(pokemon_pngs/florges.png);
+        }
+        #Skiddo {
+                    background-image: url(pokemon_pngs/skiddo.png);
+        }
+        #Gogoat {
+                    background-image: url(pokemon_pngs/gogoat.png);
+        }
+        #Pancham {
+                    background-image: url(pokemon_pngs/pancham.png);
+        }
+        #Pangoro {
+                    background-image: url(pokemon_pngs/pangoro.png);
+        }
+        #Furfrou {
+                    background-image: url(pokemon_pngs/furfrou.png);
+        }
+        #Espurr {
+                    background-image: url(pokemon_pngs/espurr.png);
+        }
+        #Meowstic {
+                    background-image: url(pokemon_pngs/meowstic.png);
+        }
+        #Honedge {
+                    background-image: url(pokemon_pngs/honedge.png);
+        }
+        #Doublade {
+                    background-image: url(pokemon_pngs/doublade.png);
+        }
+        #Aegislash {
+                    background-image: url(pokemon_pngs/aegislash.png);
+        }
+        #Spritzee {
+                    background-image: url(pokemon_pngs/spritzee.png);
+        }
+        #Aromatisse {
+                    background-image: url(pokemon_pngs/aromatisse.png);
+        }
+        #Swirlix {
+                    background-image: url(pokemon_pngs/swirlix.png);
+        }
+        #Slurpuff {
+                    background-image: url(pokemon_pngs/slurpuff.png);
+        }
+        #Inkay {
+                    background-image: url(pokemon_pngs/inkay.png);
+        }
+        #Malamar {
+                    background-image: url(pokemon_pngs/malamar.png);
+        }
+        #Binacle {
+                    background-image: url(pokemon_pngs/binacle.png);
+        }
+        #Barbaracle {
+                    background-image: url(pokemon_pngs/barbaracle.png);
+        }
+        #Skrelp {
+                    background-image: url(pokemon_pngs/skrelp.png);
+        }
+        #Dragalge {
+                    background-image: url(pokemon_pngs/dragalge.png);
+        }
+        #Clauncher {
+                    background-image: url(pokemon_pngs/clauncher.png);
+        }
+        #Clawitzer {
+                    background-image: url(pokemon_pngs/clawitzer.png);
+        }
+        #Helioptile {
+                    background-image: url(pokemon_pngs/helioptile.png);
+        }
+        #Heliolisk {
+                    background-image: url(pokemon_pngs/heliolisk.png);
+        }
+        #Tyrunt {
+                    background-image: url(pokemon_pngs/tyrunt.png);
+        }
+        #Tyrantrum {
+                    background-image: url(pokemon_pngs/tyrantrum.png);
+        }
+        #Amaura {
+                    background-image: url(pokemon_pngs/amaura.png);
+        }
+        #Aurorus {
+                    background-image: url(pokemon_pngs/aurorus.png);
+        }
+        #Sylveon {
+                    background-image: url(pokemon_pngs/sylveon.png);
+        }
+        #Hawlucha {
+                    background-image: url(pokemon_pngs/hawlucha.png);
+        }
+        #Dedenne {
+                    background-image: url(pokemon_pngs/dedenne.png);
+        }
+        #Carbink {
+                    background-image: url(pokemon_pngs/carbink.png);
+        }
+        #Goomy {
+                    background-image: url(pokemon_pngs/goomy.png);
+        }
+        #Sliggoo {
+                    background-image: url(pokemon_pngs/sliggoo.png);
+        }
+        #Goodra {
+                    background-image: url(pokemon_pngs/goodra.png);
+        }
+        #Klefki {
+                    background-image: url(pokemon_pngs/klefki.png);
+        }
+        #Phantump {
+                    background-image: url(pokemon_pngs/phantump.png);
+        }
+        #Trevenant {
+                    background-image: url(pokemon_pngs/trevenant.png);
+        }
+        #Pumpkaboo {
+                    background-image: url(pokemon_pngs/pumpkaboo.png);
+        }
+        #Gourgeist {
+                    background-image: url(pokemon_pngs/gourgeist.png);
+        }
+        #Bergmite {
+                    background-image: url(pokemon_pngs/bergmite.png);
+        }
+        #Avalugg {
+                    background-image: url(pokemon_pngs/avalugg.png);
+        }
+        #Noibat {
+                    background-image: url(pokemon_pngs/noibat.png);
+        }
+        #Noivern {
+                    background-image: url(pokemon_pngs/noivern.png);
+        }
+        #Xerneas {
+                    background-image: url(pokemon_pngs/xerneas.png);
+        }
+        #Yveltal {
+                    background-image: url(pokemon_pngs/yveltal.png);
+        }
+        #Zygarde {
+                    background-image: url(pokemon_pngs/zygarde.png);
+        }
+        #Diancie {
+                    background-image: url(pokemon_pngs/diancie.png);
+        }
+        #Hoopa {
+                    background-image: url(pokemon_pngs/hoopa.png);
+        }
+        #Volcanion {
+                    background-image: url(pokemon_pngs/volcanion.png);
+        }
+        #Rowlet {
+                    background-image: url(pokemon_pngs/rowlet.png);
+        }
+        #Dartrix {
+                    background-image: url(pokemon_pngs/dartrix.png);
+        }
+        #Decidueye {
+                    background-image: url(pokemon_pngs/decidueye.png);
+        }
+        #Litten {
+                    background-image: url(pokemon_pngs/litten.png);
+        }
+        #Torracat {
+                    background-image: url(pokemon_pngs/torracat.png);
+        }
+        #Incineroar {
+                    background-image: url(pokemon_pngs/incineroar.png);
+        }
+        #Popplio {
+                    background-image: url(pokemon_pngs/popplio.png);
+        }
+        #Brionne {
+                    background-image: url(pokemon_pngs/brionne.png);
+        }
+        #Primarina {
+                    background-image: url(pokemon_pngs/primarina.png);
+        }
+        #Pikipek {
+                    background-image: url(pokemon_pngs/pikipek.png);
+        }
+        #Trumbeak {
+                    background-image: url(pokemon_pngs/trumbeak.png);
+        }
+        #Toucannon {
+                    background-image: url(pokemon_pngs/toucannon.png);
+        }
+        #Yungoos {
+                    background-image: url(pokemon_pngs/yungoos.png);
+        }
+        #Gumshoos {
+                    background-image: url(pokemon_pngs/gumshoos.png);
+        }
+        #Grubbin {
+                    background-image: url(pokemon_pngs/grubbin.png);
+        }
+        #Charjabug {
+                    background-image: url(pokemon_pngs/charjabug.png);
+        }
+        #Vikavolt {
+                    background-image: url(pokemon_pngs/vikavolt.png);
+        }
+        #Crabrawler {
+                    background-image: url(pokemon_pngs/crabrawler.png);
+        }
+        #Crabominable {
+                    background-image: url(pokemon_pngs/crabominable.png);
+        }
+        #Oricorio {
+                    background-image: url(pokemon_pngs/oricorio.png);
+        }
+        #Cutiefly {
+                    background-image: url(pokemon_pngs/cutiefly.png);
+        }
+        #Ribombee {
+                    background-image: url(pokemon_pngs/ribombee.png);
+        }
+        #Rockruff {
+                    background-image: url(pokemon_pngs/rockruff.png);
+        }
+        #Lycanroc {
+                    background-image: url(pokemon_pngs/lycanroc.png);
+        }
+        #Wishiwashi {
+                    background-image: url(pokemon_pngs/wishiwashi.png);
+        }
+        #Mareanie {
+                    background-image: url(pokemon_pngs/mareanie.png);
+        }
+        #Toxapex {
+                    background-image: url(pokemon_pngs/toxapex.png);
+        }
+        #Mudbray {
+                    background-image: url(pokemon_pngs/mudbray.png);
+        }
+        #Mudsdale {
+                    background-image: url(pokemon_pngs/mudsdale.png);
+        }
+        #Dewpider {
+                    background-image: url(pokemon_pngs/dewpider.png);
+        }
+        #Araquanid {
+                    background-image: url(pokemon_pngs/araquanid.png);
+        }
+        #Fomantis {
+                    background-image: url(pokemon_pngs/fomantis.png);
+        }
+        #Lurantis {
+                    background-image: url(pokemon_pngs/lurantis.png);
+        }
+        #Morelull {
+                    background-image: url(pokemon_pngs/morelull.png);
+        }
+        #Shiinotic {
+                    background-image: url(pokemon_pngs/shiinotic.png);
+        }
+        #Salandit {
+                    background-image: url(pokemon_pngs/salandit.png);
+        }
+        #Salazzle {
+                    background-image: url(pokemon_pngs/salazzle.png);
+        }
+        #Stufful {
+                    background-image: url(pokemon_pngs/stufful.png);
+        }
+        #Bewear {
+                    background-image: url(pokemon_pngs/bewear.png);
+        }
+        #Bounsweet {
+                    background-image: url(pokemon_pngs/bounsweet.png);
+        }
+        #Steenee {
+                    background-image: url(pokemon_pngs/steenee.png);
+        }
+        #Tsareena {
+                    background-image: url(pokemon_pngs/tsareena.png);
+        }
+        #Comfey {
+                    background-image: url(pokemon_pngs/comfey.png);
+        }
+        #Oranguru {
+                    background-image: url(pokemon_pngs/oranguru.png);
+        }
+        #Passimian {
+                    background-image: url(pokemon_pngs/passimian.png);
+        }
+        #Wimpod {
+                    background-image: url(pokemon_pngs/wimpod.png);
+        }
+        #Golisopod {
+                    background-image: url(pokemon_pngs/golisopod.png);
+        }
+        #Sandygast {
+                    background-image: url(pokemon_pngs/sandygast.png);
+        }
+        #Palossand {
+                    background-image: url(pokemon_pngs/palossand.png);
+        }
+        #Pyukumuku {
+                    background-image: url(pokemon_pngs/pyukumuku.png);
+        }
+        #Type_Null {
+                    background-image: url(pokemon_pngs/type_null.png);
+        }
+        #Silvally {
+                    background-image: url(pokemon_pngs/silvally.png);
+        }
+        #Minior {
+                    background-image: url(pokemon_pngs/minior.png);
+        }
+        #Komala {
+                    background-image: url(pokemon_pngs/komala.png);
+        }
+        #Turtonator {
+                    background-image: url(pokemon_pngs/turtonator.png);
+        }
+        #Togedemaru {
+                    background-image: url(pokemon_pngs/togedemaru.png);
+        }
+        #Mimikyu {
+                    background-image: url(pokemon_pngs/mimikyu.png);
+        }
+        #Bruxish {
+                    background-image: url(pokemon_pngs/bruxish.png);
+        }
+        #Drampa {
+                    background-image: url(pokemon_pngs/drampa.png);
+        }
+        #Dhelmise {
+                    background-image: url(pokemon_pngs/dhelmise.png);
+        }
+        #Jangmo_o {
+                    background-image: url(pokemon_pngs/jangmo_o.png);
+        }
+        #Hakamo_o {
+                    background-image: url(pokemon_pngs/hakamo_o.png);
+        }
+        #Kommo_o {
+                    background-image: url(pokemon_pngs/kommo_o.png);
+        }
+        #Tapu_Koko {
+                    background-image: url(pokemon_pngs/tapu_koko.png);
+        }
+        #Tapu_Lele {
+                    background-image: url(pokemon_pngs/tapu_lele.png);
+        }
+        #Tapu_Bulu {
+                    background-image: url(pokemon_pngs/tapu_bulu.png);
+        }
+        #Tapu_Fini {
+                    background-image: url(pokemon_pngs/tapu_fini.png);
+        }
+        #Cosmog {
+                    background-image: url(pokemon_pngs/cosmog.png);
+        }
+        #Cosmoem {
+                    background-image: url(pokemon_pngs/cosmoem.png);
+        }
+        #Solgaleo {
+                    background-image: url(pokemon_pngs/solgaleo.png);
+        }
+        #Lunala {
+                    background-image: url(pokemon_pngs/lunala.png);
+        }
+        #Nihilego {
+                    background-image: url(pokemon_pngs/nihilego.png);
+        }
+        #Buzzwole {
+                    background-image: url(pokemon_pngs/buzzwole.png);
+        }
+        #Pheromosa {
+                    background-image: url(pokemon_pngs/pheromosa.png);
+        }
+        #Xurkitree {
+                    background-image: url(pokemon_pngs/xurkitree.png);
+        }
+        #Celesteela {
+                    background-image: url(pokemon_pngs/celesteela.png);
+        }
+        #Kartana {
+                    background-image: url(pokemon_pngs/kartana.png);
+        }
+        #Guzzlord {
+                    background-image: url(pokemon_pngs/guzzlord.png);
+        }
+        #Necrozma {
+                    background-image: url(pokemon_pngs/necrozma.png);
+        }
+        #Magearna {
+                    background-image: url(pokemon_pngs/magearna.png);
+        }
+        #Marshadow {
+                    background-image: url(pokemon_pngs/marshadow.png);
+        }
+        #Poipole {
+                    background-image: url(pokemon_pngs/poipole.png);
+        }
+        #Naganadel {
+                    background-image: url(pokemon_pngs/naganadel.png);
+        }
+        #Stakataka {
+                    background-image: url(pokemon_pngs/stakataka.png);
+        }
+        #Blacephalon {
+                    background-image: url(pokemon_pngs/blacephalon.png);
+        }
+        #Zeraora {
+                    background-image: url(pokemon_pngs/zeraora.png);
+        }
+        #Meltan {
+                    background-image: url(pokemon_pngs/meltan.png);
+        }
+        #Melmetal {
+                    background-image: url(pokemon_pngs/melmetal.png);
+        }
+        #Grookey {
+                    background-image: url(pokemon_pngs/grookey.png);
+        }
+        #Thwackey {
+                    background-image: url(pokemon_pngs/thwackey.png);
+        }
+        #Rillaboom {
+                    background-image: url(pokemon_pngs/rillaboom.png);
+        }
+        #Scorbunny {
+                    background-image: url(pokemon_pngs/scorbunny.png);
+        }
+        #Raboot {
+                    background-image: url(pokemon_pngs/raboot.png);
+        }
+        #Cinderace {
+                    background-image: url(pokemon_pngs/cinderace.png);
+        }
+        #Sobble {
+                    background-image: url(pokemon_pngs/sobble.png);
+        }
+        #Drizzile {
+                    background-image: url(pokemon_pngs/drizzile.png);
+        }
+        #Inteleon {
+                    background-image: url(pokemon_pngs/inteleon.png);
+        }
+        #Skwovet {
+                    background-image: url(pokemon_pngs/skwovet.png);
+        }
+        #Greedent {
+                    background-image: url(pokemon_pngs/greedent.png);
+        }
+        #Rookidee {
+                    background-image: url(pokemon_pngs/rookidee.png);
+        }
+        #Corvisquire {
+                    background-image: url(pokemon_pngs/corvisquire.png);
+        }
+        #Corviknight {
+                    background-image: url(pokemon_pngs/corviknight.png);
+        }
+        #Blipbug {
+                    background-image: url(pokemon_pngs/blipbug.png);
+        }
+        #Dottler {
+                    background-image: url(pokemon_pngs/dottler.png);
+        }
+        #Orbeetle {
+                    background-image: url(pokemon_pngs/orbeetle.png);
+        }
+        #Nickit {
+                    background-image: url(pokemon_pngs/nickit.png);
+        }
+        #Thievul {
+                    background-image: url(pokemon_pngs/thievul.png);
+        }
+        #Gossifleur {
+                    background-image: url(pokemon_pngs/gossifleur.png);
+        }
+        #Eldegoss {
+                    background-image: url(pokemon_pngs/eldegoss.png);
+        }
+        #Wooloo {
+                    background-image: url(pokemon_pngs/wooloo.png);
+        }
+        #Dubwool {
+                    background-image: url(pokemon_pngs/dubwool.png);
+        }
+        #Chewtle {
+                    background-image: url(pokemon_pngs/chewtle.png);
+        }
+        #Drednaw {
+                    background-image: url(pokemon_pngs/drednaw.png);
+        }
+        #Yamper {
+                    background-image: url(pokemon_pngs/yamper.png);
+        }
+        #Boltund {
+                    background-image: url(pokemon_pngs/boltund.png);
+        }
+        #Rolycoly {
+                    background-image: url(pokemon_pngs/rolycoly.png);
+        }
+        #Carkol {
+                    background-image: url(pokemon_pngs/carkol.png);
+        }
+        #Coalossal {
+                    background-image: url(pokemon_pngs/coalossal.png);
+        }
+        #Applin {
+                    background-image: url(pokemon_pngs/applin.png);
+        }
+        #Flapple {
+                    background-image: url(pokemon_pngs/flapple.png);
+        }
+        #Appletun {
+                    background-image: url(pokemon_pngs/appletun.png);
+        }
+        #Silicobra {
+                    background-image: url(pokemon_pngs/silicobra.png);
+        }
+        #Sandaconda {
+                    background-image: url(pokemon_pngs/sandaconda.png);
+        }
+        #Cramorant {
+                    background-image: url(pokemon_pngs/cramorant.png);
+        }
+        #Arrokuda {
+                    background-image: url(pokemon_pngs/arrokuda.png);
+        }
+        #Barraskewda {
+                    background-image: url(pokemon_pngs/barraskewda.png);
+        }
+        #Toxel {
+                    background-image: url(pokemon_pngs/toxel.png);
+        }
+        #Toxtricity {
+                    background-image: url(pokemon_pngs/toxtricity.png);
+        }
+        #Sizzlipede {
+                    background-image: url(pokemon_pngs/sizzlipede.png);
+        }
+        #Centiskorch {
+                    background-image: url(pokemon_pngs/centiskorch.png);
+        }
+        #Clobbopus {
+                    background-image: url(pokemon_pngs/clobbopus.png);
+        }
+        #Grapploct {
+                    background-image: url(pokemon_pngs/grapploct.png);
+        }
+        #Sinistea {
+                    background-image: url(pokemon_pngs/sinistea.png);
+        }
+        #Polteageist {
+                    background-image: url(pokemon_pngs/polteageist.png);
+        }
+        #Hatenna {
+                    background-image: url(pokemon_pngs/hatenna.png);
+        }
+        #Hattrem {
+                    background-image: url(pokemon_pngs/hattrem.png);
+        }
+        #Hatterene {
+                    background-image: url(pokemon_pngs/hatterene.png);
+        }
+        #Impidimp {
+                    background-image: url(pokemon_pngs/impidimp.png);
+        }
+        #Morgrem {
+                    background-image: url(pokemon_pngs/morgrem.png);
+        }
+        #Grimmsnarl {
+                    background-image: url(pokemon_pngs/grimmsnarl.png);
+        }
+        #Obstagoon {
+                    background-image: url(pokemon_pngs/obstagoon.png);
+        }
+        #Perrserker {
+                    background-image: url(pokemon_pngs/perrserker.png);
+        }
+        #Cursola {
+                    background-image: url(pokemon_pngs/cursola.png);
+        }
+        #Sirfetchd {
+                    background-image: url(pokemon_pngs/sirfetchd.png);
+        }
+        #Mr_Rime {
+                    background-image: url(pokemon_pngs/mr_rime.png);
+        }
+        #Runerigus {
+                    background-image: url(pokemon_pngs/runerigus.png);
+        }
+        #Milcery {
+                    background-image: url(pokemon_pngs/milcery.png);
+        }
+        #Alcremie {
+                    background-image: url(pokemon_pngs/alcremie.png);
+        }
+        #Falinks {
+                    background-image: url(pokemon_pngs/falinks.png);
+        }
+        #Pincurchin {
+                    background-image: url(pokemon_pngs/pincurchin.png);
+        }
+        #Snom {
+                    background-image: url(pokemon_pngs/snom.png);
+        }
+        #Frosmoth {
+                    background-image: url(pokemon_pngs/frosmoth.png);
+        }
+        #Stonjourner {
+                    background-image: url(pokemon_pngs/stonjourner.png);
+        }
+        #Eiscue {
+                    background-image: url(pokemon_pngs/eiscue.png);
+        }
+        #Indeedee {
+                    background-image: url(pokemon_pngs/indeedee.png);
+        }
+        #Morpeko {
+                    background-image: url(pokemon_pngs/morpeko.png);
+        }
+        #Cufant {
+                    background-image: url(pokemon_pngs/cufant.png);
+        }
+        #Copperajah {
+                    background-image: url(pokemon_pngs/copperajah.png);
+        }
+        #Dracozolt {
+                    background-image: url(pokemon_pngs/dracozolt.png);
+        }
+        #Arctozolt {
+                    background-image: url(pokemon_pngs/arctozolt.png);
+        }
+        #Dracovish {
+                    background-image: url(pokemon_pngs/dracovish.png);
+        }
+        #Arctovish {
+                    background-image: url(pokemon_pngs/arctovish.png);
+        }
+        #Duraludon {
+                    background-image: url(pokemon_pngs/duraludon.png);
+        }
+        #Dreepy {
+                    background-image: url(pokemon_pngs/dreepy.png);
+        }
+        #Drakloak {
+                    background-image: url(pokemon_pngs/drakloak.png);
+        }
+        #Dragapult {
+                    background-image: url(pokemon_pngs/dragapult.png);
+        }
+        #Zacian {
+                    background-image: url(pokemon_pngs/zacian.png);
+        }
+        #Zamazenta {
+                    background-image: url(pokemon_pngs/zamazenta.png);
+        }
+        #Eternatus {
+                    background-image: url(pokemon_pngs/eternatus.png);
+        }
+        #Kubfu {
+                    background-image: url(pokemon_pngs/kubfu.png);
+        }
+        #Urshifu {
+                    background-image: url(pokemon_pngs/urshifu.png);
+        }
+        #Zarude {
+                    background-image: url(pokemon_pngs/zarude.png);
+        }
+        #Regieleki {
+                    background-image: url(pokemon_pngs/regieleki.png);
+        }
+        #Regidrago {
+                    background-image: url(pokemon_pngs/regidrago.png);
+        }
+        #Glastrier {
+                    background-image: url(pokemon_pngs/glastrier.png);
+        }
+        #Spectrier {
+                    background-image: url(pokemon_pngs/spectrier.png);
+        }
+        #Calyrex {
+                    background-image: url(pokemon_pngs/calyrex.png);
+        }
+        #Wyrdeer {
+                    background-image: url(pokemon_pngs/wyrdeer.png);
+        }
+        #Kleavor {
+                    background-image: url(pokemon_pngs/kleavor.png);
+        }
+        #Ursaluna {
+                    background-image: url(pokemon_pngs/ursaluna.png);
+        }
+        #Basculegion {
+                    background-image: url(pokemon_pngs/basculegion.png);
+        }
+        #Sneasler {
+                    background-image: url(pokemon_pngs/sneasler.png);
+        }
+        #Overqwil {
+                    background-image: url(pokemon_pngs/overqwil.png);
+        }
+        #Enamorus {
+                    background-image: url(pokemon_pngs/enamorus.png);
+        }
+        #Sprigatito {
+                    background-image: url(pokemon_pngs/sprigatito.png);
+        }
+        #Floragato {
+                    background-image: url(pokemon_pngs/floragato.png);
+        }
+        #Meowscarada {
+                    background-image: url(pokemon_pngs/meowscarada.png);
+        }
+        #Fuecoco {
+                    background-image: url(pokemon_pngs/fuecoco.png);
+        }
+        #Crocalor {
+                    background-image: url(pokemon_pngs/crocalor.png);
+        }
+        #Skeledirge {
+                    background-image: url(pokemon_pngs/skeledirge.png);
+        }
+        #Quaxly {
+                    background-image: url(pokemon_pngs/quaxly.png);
+        }
+        #Quaxwell {
+                    background-image: url(pokemon_pngs/quaxwell.png);
+        }
+        #Quaquaval {
+                    background-image: url(pokemon_pngs/quaquaval.png);
+        }
+        #Lechonk {
+                    background-image: url(pokemon_pngs/lechonk.png);
+        }
+        #Oinkologne {
+                    background-image: url(pokemon_pngs/oinkologne.png);
+        }
+        #Tarountula {
+                    background-image: url(pokemon_pngs/tarountula.png);
+        }
+        #Spidops {
+                    background-image: url(pokemon_pngs/spidops.png);
+        }
+        #Nymble {
+                    background-image: url(pokemon_pngs/nymble.png);
+        }
+        #Lokix {
+                    background-image: url(pokemon_pngs/lokix.png);
+        }
+        #Pawmi {
+                    background-image: url(pokemon_pngs/pawmi.png);
+        }
+        #Pawmo {
+                    background-image: url(pokemon_pngs/pawmo.png);
+        }
+        #Pawmot {
+                    background-image: url(pokemon_pngs/pawmot.png);
+        }
+        #Tandemaus {
+                    background-image: url(pokemon_pngs/tandemaus.png);
+        }
+        #Maushold {
+                    background-image: url(pokemon_pngs/maushold.png);
+        }
+        #Fidough {
+                    background-image: url(pokemon_pngs/fidough.png);
+        }
+        #Dachsbun {
+                    background-image: url(pokemon_pngs/dachsbun.png);
+        }
+        #Smoliv {
+                    background-image: url(pokemon_pngs/smoliv.png);
+        }
+        #Dolliv {
+                    background-image: url(pokemon_pngs/dolliv.png);
+        }
+        #Arboliva {
+                    background-image: url(pokemon_pngs/arboliva.png);
+        }
+        #Squawkabilly {
+                    background-image: url(pokemon_pngs/squawkabilly.png);
+        }
+        #Nacli {
+                    background-image: url(pokemon_pngs/nacli.png);
+        }
+        #Naclstack {
+                    background-image: url(pokemon_pngs/naclstack.png);
+        }
+        #Garganacl {
+                    background-image: url(pokemon_pngs/garganacl.png);
+        }
+        #Charcadet {
+                    background-image: url(pokemon_pngs/charcadet.png);
+        }
+        #Armarouge {
+                    background-image: url(pokemon_pngs/armarouge.png);
+        }
+        #Ceruledge {
+                    background-image: url(pokemon_pngs/ceruledge.png);
+        }
+        #Tadbulb {
+                    background-image: url(pokemon_pngs/tadbulb.png);
+        }
+        #Bellibolt {
+                    background-image: url(pokemon_pngs/bellibolt.png);
+        }
+        #Wattrel {
+                    background-image: url(pokemon_pngs/wattrel.png);
+        }
+        #Kilowattrel {
+                    background-image: url(pokemon_pngs/kilowattrel.png);
+        }
+        #Maschiff {
+                    background-image: url(pokemon_pngs/maschiff.png);
+        }
+        #Mabosstiff {
+                    background-image: url(pokemon_pngs/mabosstiff.png);
+        }
+        #Shroodle {
+                    background-image: url(pokemon_pngs/shroodle.png);
+        }
+        #Grafaiai {
+                    background-image: url(pokemon_pngs/grafaiai.png);
+        }
+        #Bramblin {
+                    background-image: url(pokemon_pngs/bramblin.png);
+        }
+        #Brambleghast {
+                    background-image: url(pokemon_pngs/brambleghast.png);
+        }
+        #Toedscool {
+                    background-image: url(pokemon_pngs/toedscool.png);
+        }
+        #Toedscruel {
+                    background-image: url(pokemon_pngs/toedscruel.png);
+        }
+        #Klawf {
+                    background-image: url(pokemon_pngs/klawf.png);
+        }
+        #Capsakid {
+                    background-image: url(pokemon_pngs/capsakid.png);
+        }
+        #Scovillain {
+                    background-image: url(pokemon_pngs/scovillain.png);
+        }
+        #Rellor {
+                    background-image: url(pokemon_pngs/rellor.png);
+        }
+        #Rabsca {
+                    background-image: url(pokemon_pngs/rabsca.png);
+        }
+        #Flittle {
+                    background-image: url(pokemon_pngs/flittle.png);
+        }
+        #Espathra {
+                    background-image: url(pokemon_pngs/espathra.png);
+        }
+        #Tinkatink {
+                    background-image: url(pokemon_pngs/tinkatink.png);
+        }
+        #Tinkatuff {
+                    background-image: url(pokemon_pngs/tinkatuff.png);
+        }
+        #Tinkaton {
+                    background-image: url(pokemon_pngs/tinkaton.png);
+        }
+        #Wiglett {
+                    background-image: url(pokemon_pngs/wiglett.png);
+        }
+        #Wugtrio {
+                    background-image: url(pokemon_pngs/wugtrio.png);
+        }
+        #Bombirdier {
+                    background-image: url(pokemon_pngs/bombirdier.png);
+        }
+        #Finizen {
+                    background-image: url(pokemon_pngs/finizen.png);
+        }
+        #Palafin {
+                    background-image: url(pokemon_pngs/palafin.png);
+        }
+        #Varoom {
+                    background-image: url(pokemon_pngs/varoom.png);
+        }
+        #Revavroom {
+                    background-image: url(pokemon_pngs/revavroom.png);
+        }
+        #Cyclizar {
+                    background-image: url(pokemon_pngs/cyclizar.png);
+        }
+        #Orthworm {
+                    background-image: url(pokemon_pngs/orthworm.png);
+        }
+        #Glimmet {
+                    background-image: url(pokemon_pngs/glimmet.png);
+        }
+        #Glimmora {
+                    background-image: url(pokemon_pngs/glimmora.png);
+        }
+        #Greavard {
+                    background-image: url(pokemon_pngs/greavard.png);
+        }
+        #Houndstone {
+                    background-image: url(pokemon_pngs/houndstone.png);
+        }
+        #Flamigo {
+                    background-image: url(pokemon_pngs/flamigo.png);
+        }
+        #Cetoddle {
+                    background-image: url(pokemon_pngs/cetoddle.png);
+        }
+        #Cetitan {
+                    background-image: url(pokemon_pngs/cetitan.png);
+        }
+        #Veluza {
+                    background-image: url(pokemon_pngs/veluza.png);
+        }
+        #Dondozo {
+                    background-image: url(pokemon_pngs/dondozo.png);
+        }
+        #Tatsugiri {
+                    background-image: url(pokemon_pngs/tatsugiri.png);
+        }
+        #Annihilape {
+                    background-image: url(pokemon_pngs/annihilape.png);
+        }
+        #Clodsire {
+                    background-image: url(pokemon_pngs/clodsire.png);
+        }
+        #Farigiraf {
+                    background-image: url(pokemon_pngs/farigiraf.png);
+        }
+        #Dudunsparce {
+                    background-image: url(pokemon_pngs/dudunsparce.png);
+        }
+        #Kingambit {
+                    background-image: url(pokemon_pngs/kingambit.png);
+        }
+        #Great_Tusk {
+                    background-image: url(pokemon_pngs/great_tusk.png);
+        }
+        #Scream_Tail {
+                    background-image: url(pokemon_pngs/scream_tail.png);
+        }
+        #Brute_Bonnet {
+                    background-image: url(pokemon_pngs/brute_bonnet.png);
+        }
+        #Flutter_Mane {
+                    background-image: url(pokemon_pngs/flutter_mane.png);
+        }
+        #Slither_Wing {
+                    background-image: url(pokemon_pngs/slither_wing.png);
+        }
+        #Sandy_Shocks {
+                    background-image: url(pokemon_pngs/sandy_shocks.png);
+        }
+        #Iron_Treads {
+                    background-image: url(pokemon_pngs/iron_treads.png);
+        }
+        #Iron_Bundle {
+                    background-image: url(pokemon_pngs/iron_bundle.png);
+        }
+        #Iron_Hands {
+                    background-image: url(pokemon_pngs/iron_hands.png);
+        }
+        #Iron_Jugulis {
+                    background-image: url(pokemon_pngs/iron_jugulis.png);
+        }
+        #Iron_Moth {
+                    background-image: url(pokemon_pngs/iron_moth.png);
+        }
+        #Iron_Thorns {
+                    background-image: url(pokemon_pngs/iron_thorns.png);
+        }
+        #Frigibax {
+                    background-image: url(pokemon_pngs/frigibax.png);
+        }
+        #Arctibax {
+                    background-image: url(pokemon_pngs/arctibax.png);
+        }
+        #Baxcalibur {
+                    background-image: url(pokemon_pngs/baxcalibur.png);
+        }
+        #Gimmighoul {
+                    background-image: url(pokemon_pngs/gimmighoul.png);
+        }
+        #Gholdengo {
+                    background-image: url(pokemon_pngs/gholdengo.png);
+        }
+        #Wo_Chien {
+                    background-image: url(pokemon_pngs/wo_chien.png);
+        }
+        #Chien_Pao {
+                    background-image: url(pokemon_pngs/chien_pao.png);
+        }
+        #Ting_Lu {
+                    background-image: url(pokemon_pngs/ting_lu.png);
+        }
+        #Chi_Yu {
+                    background-image: url(pokemon_pngs/chi_yu.png);
+        }
+        #Roaring_Moon {
+                    background-image: url(pokemon_pngs/roaring_moon.png);
+        }
+        #Iron_Valiant {
+                    background-image: url(pokemon_pngs/iron_valiant.png);
+        }
+        #Koraidon {
+                    background-image: url(pokemon_pngs/koraidon.png);
+        }
+        #Miraidon {
+                    background-image: url(pokemon_pngs/miraidon.png);
+        }
+        #Walking_Wake {
+                    background-image: url(pokemon_pngs/walking_wake.png);
+        }
+        #Iron_Leaves {
+                    background-image: url(pokemon_pngs/iron_leaves.png);
+        }
+        #Dipplin {
+                    background-image: url(pokemon_pngs/dipplin.png);
+        }
+        #Poltchageist {
+                    background-image: url(pokemon_pngs/poltchageist.png);
+        }
+        #Sinistcha {
+                    background-image: url(pokemon_pngs/sinistcha.png);
+        }
+        #Okidogi {
+                    background-image: url(pokemon_pngs/okidogi.png);
+        }
+        #Munkidori {
+                    background-image: url(pokemon_pngs/munkidori.png);
+        }
+        #Fezandipiti {
+                    background-image: url(pokemon_pngs/fezandipiti.png);
+        }
+        #Ogerpon {
+                    background-image: url(pokemon_pngs/ogerpon.png);
+        }
+        #Archaludon {
+                    background-image: url(pokemon_pngs/archaludon.png);
+        }
+        #Hydrapple {
+                    background-image: url(pokemon_pngs/hydrapple.png);
+        }
+        #Gouging_Fire {
+                    background-image: url(pokemon_pngs/gouging_fire.png);
+        }
+        #Raging_Bolt {
+                    background-image: url(pokemon_pngs/raging_bolt.png);
+        }
+        #Iron_Boulder {
+                    background-image: url(pokemon_pngs/iron_boulder.png);
+        }
+        #Iron_Crown {
+                    background-image: url(pokemon_pngs/iron_crown.png);
+        }
+        #Terapagos {
+                    background-image: url(pokemon_pngs/terapagos.png);
+        }
+        #Pecharunt {
+                    background-image: url(pokemon_pngs/pecharunt.png);
+        } */
