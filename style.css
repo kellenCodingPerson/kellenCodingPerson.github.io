@@ -307,16 +307,23 @@
             margin: 1rem;
             background-repeat: no-repeat;
             background-size: cover;
-            padding: 1rem;
-            font-size: 1.5rem;
             display: flex;
-            align-items: end;
-
+            align-items: stretch;
+            align-content: flex-end;
+        }
+        .pokemon_title {
+            height: 2rem;
+            width: 16rem;
+            font-size: 1.5rem;
+            background-color: chartreuse;
         }
         .pokemon_image:hover {
             width: 17rem;
             height: 17rem;
             margin: 0.5rem;
+        }
+        .pokemon_image:hover .pokemon_title {
+            width: 17rem;
         }
         /* flying pokemon animations */
         @keyframes rayquaza_flight {
