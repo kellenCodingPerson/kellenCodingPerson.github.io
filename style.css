@@ -194,7 +194,7 @@
                 left: -20vw;
             }
         }
-        #ho_oh {
+        #flying_ho_oh {
             top: 120vh;
             animation-name: ho_oh_flight;
             animation-delay: 3s;
@@ -278,6 +278,40 @@
             box-sizing: border-box;
             padding-bottom: 10px;
             font-size: 1.5rem;
+        }
+        #species_container_2 {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+
+            /* background image */
+            background-image: url(sbrv1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            z-index: 9;
+            border-width: 10px 10px 10px 10px;
+            border-style: double;
+
+            /* text */
+            justify-content: space-around;
+            box-sizing: border-box;
+            padding-bottom: 10px;
+            font-size: 1.5rem;
+        }
+        .pokemon_image {
+            width: 16rem;
+            height: 16rem;
+            background-color: gray;
+            margin: 1rem;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .pokemon_image:hover {
+            width: 17rem;
+            height: 17rem;
+            margin: 0.5rem;
         }
         /* flying pokemon animations */
         @keyframes rayquaza_flight {
@@ -407,7 +441,7 @@
                 right: -20vw;
             }
         }
-        #rayquaza {
+        #flying_rayquaza {
             top: 60vh;
             animation-name: rayquaza_flight;
             animation-delay: 5s;
@@ -417,3 +451,113 @@
         /*=============== Forms Styling ===============*/
 
         /*=============== Customize Styling ===============*/
+
+        /*=============== Pokemon Image Styling ===============*/
+        #Bulbasaur {
+            background-image: url(pokemon_pngs/bulbasaur.png);
+        }
+        #Ivysaur {
+            background-image: url(pokemon_pngs/ivysaur.png);
+        }
+        #Venusaur {
+            background-image: url(pokemon_pngs/venusaur.png);
+        }
+        #Charmander {
+            background-image: url(pokemon_pngs/charmander.png);
+        }
+        #Charmeleon {
+            background-image: url(pokemon_pngs/charmeleon.png);
+        }
+        #Charizard {
+            background-image: url(pokemon_pngs/charizard.png);
+        }
+        #Squirtle {
+            background-image: url(pokemon_pngs/squirtle.png);
+        }
+        #Wartortle {
+            background-image: url(pokemon_pngs/wartortle.png);
+        }
+        #Blastoise {
+            background-image: url(pokemon_pngs/blastoise.png);
+        }
+        #Caterpie {
+            background-image: url(pokemon_pngs/caterpie.png);
+        }
+        #Metapod {
+            background-image: url(pokemon_pngs/metapod.png);
+        }
+        #Butterfree {
+            background-image: url(pokemon_pngs/butterfree.png);
+        }
+        #Weedle {
+            background-image: url(pokemon_pngs/weedle.png);
+        }
+        #Kakuna {
+            background-image: url(pokemon_pngs/kakuna.png);
+        }
+        #Beedrill {
+            background-image: url(pokemon_pngs/beedrill.png);
+        }
+        #Pidgey {
+            background-image: url(pokemon_pngs/pidgey.png);
+        }
+        #Pidgeotto {
+            background-image: url(pokemon_pngs/pidgeotto.png);
+        }
+        #Pidgeot {
+            background-image: url(pokemon_pngs/pidgeot.png);
+        }
+        #Rattata {
+            background-image: url(pokemon_pngs/rattata.png);
+        }
+        #Raticate {
+            background-image: url(pokemon_pngs/raticate.png);
+        }
+        #Spearow {
+            background-image: url(pokemon_pngs/spearow.png);
+        }
+        #Fearow {
+            background-image: url(pokemon_pngs/fearow.png);
+        }
+        #Ekans {
+            background-image: url(pokemon_pngs/ekans.png);
+        }
+        #Arbok {
+            background-image: url(pokemon_pngs/arbok.png);
+        }
+        #Pikachu {
+            background-image: url(pokemon_pngs/pikachu.png);
+        }
+        #Raichu {
+            background-image: url(pokemon_pngs/raichu.png);
+        }
+        #Sandshrew {
+            background-image: url(pokemon_pngs/sandshrew.png);
+        }
+        #Sandslash {
+            background-image: url(pokemon_pngs/sandslash.png);
+        }
+        #NidoranF {
+            background-image: url(pokemon_pngs/nidoranF.png);
+        }
+        #Nidorina {
+            background-image: url(pokemon_pngs/nidorina.png);
+        }
+        #Nidoqueen {
+            background-image: url(pokemon_pngs/nidoqueen.png);
+        }
+        #NidoranM {
+            background-image: url(pokemon_pngs/nidoranM.png);
+        }
+        #Nidorino {
+            background-image: url(pokemon_pngs/nidorino.png);
+        }
+        #Nidoking {
+            background-image: url(pokemon_pngs/nidoking.png);
+        }
+        #Clefairy {
+            background-image: url(pokemon_pngs/clefairy.png);
+        }
+        #Clefable {
+            background-image: url(pokemon_pngs/clefable.png);
+        }
