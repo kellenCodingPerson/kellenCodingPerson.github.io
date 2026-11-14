@@ -866,7 +866,7 @@
         #Magmar {
             background-image: url(pokemon_pngs/magmar.png);
         }
-        /* #Pinsir {
+        #Pinsir {
             background-image: url(pokemon_pngs/pinsir.png);
         }
         #Tauros {
@@ -1235,10 +1235,13 @@
         #Lugia {
             background-image: url(pokemon_pngs/lugia.png);
         }
+        #Ho_Oh {
+            background-image: url(pokemon_pngs/ho_oh.png);
+        }
         #Celebi {
             background-image: url(pokemon_pngs/celebi.png);
         }
-        #Treecko {
+        /* #Treecko {
             background-image: url(pokemon_pngs/treecko.png);
         }
         #Grovyle {
@@ -1903,6 +1906,9 @@
         }
         #Mamoswine {
             background-image: url(pokemon_pngs/mamoswine.png);
+        }
+        #Porygon_Z {
+            background-image: url(pokemon_pngs/porygon_z.png);
         }
         #Gallade {
             background-image: url(pokemon_pngs/gallade.png);
