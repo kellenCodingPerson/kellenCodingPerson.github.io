@@ -304,7 +304,7 @@
         .pokemon_image {
             width: 16rem;
             height: 16rem;
-            background-color: gray;
+            background-color: rgba(128, 128, 128, 0.621);
             margin: 1rem;
             background-repeat: no-repeat;
             background-size: cover;
@@ -2915,7 +2915,7 @@
         #Melmetal {
             background-image: url(pokemon_pngs/melmetal.png);
         }
-        /* #Grookey {
+        #Grookey {
             background-image: url(pokemon_pngs/grookey.png);
         }
         #Thwackey {
@@ -3203,7 +3203,7 @@
         #Enamorus {
             background-image: url(pokemon_pngs/enamorus.png);
         }
-        #Sprigatito {
+        /* #Sprigatito {
             background-image: url(pokemon_pngs/sprigatito.png);
         }
         #Floragato {
