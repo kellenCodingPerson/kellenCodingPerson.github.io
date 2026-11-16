@@ -282,15 +282,13 @@
         }
         #species_container_2 {
             width: 100vw;
-            height: 100vh;
+            height: 12000vh;
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
 
             /* background image */
-            background-image: url(sbrv1.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
+            background-color: crimson;
             z-index: 9;
             border-width: 10px 10px 10px 10px;
             border-style: double;
