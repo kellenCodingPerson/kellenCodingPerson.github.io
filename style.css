@@ -18,23 +18,23 @@
         }
         #page_one {
             /* setting image as background */
-            background-image: url(sbrv1.jpg);
+            background-image: url(pokemon_pngs/porygon_z.png);
         }
         #page_two {
             /* setting image as background */
-            background-image: url(porygon2.jpg);
+            background-image: url(pokemon_pngs/ditto.png);
         }
         #page_three {
             /* setting image as background */
-            background-image: url(geris_game.png);
+            background-image: url(pokemon_pngs/incineroar.png);
         }
         #page_four {
             /* setting image as background */
-            background-image: url(peashooter.png);
+            background-image: url(pokemon_pngs/deoxys.png);
         }
         #page_five {
             /* setting image as background */
-            background-image: url(sunflower.png);
+            background-image: url(pokemon_pngs/vivillon.png);
         }
         .nav_item {
             /* aligning label */
@@ -82,37 +82,38 @@
 /*=============== Homepage Styling ===============*/
         @keyframes homepage_title_animation {
             24.99% {
-                background-image: url(sbrv1.jpg);
+                background-image: url(porygon_pokedex.jpeg);
             }
             25% {
-                background-image: url(geris_game.png);
+                background-image: url(porygon2_pokedex.jpeg);
             }
             49.99% {
-                background-image: url(geris_game.png);
+                background-image: url(porygon2_pokedex.jpeg);
             }
             50% {
-                background-image: url(peashooter.png);
+                background-image: url(porygon_z_pokedex.png);
             }
             74.99% {
-                background-image: url(peashooter.png);
+                background-image: url(porygon_z_pokedex.png);
             }
             75% {
-                background-image: url(porygon2.jpg);
+                background-image: url(pokedex_minior.png);
             }
             99.99% {
-                background-image: url(porygon2.jpg);
+                background-image: url(pokedex_minior.png);
             }
             100% {
-                background-image: url(sbrv1.jpg);
+                background-image: url(porygon_pokedex.jpeg);
             }
         }
         #homepage_title_container {
             width: 100vw;
+            height: 17vh;
             display: flex;
             flex-direction: row;
             flex-wrap: nowrap;
 
-            background-image: url(sbrv1.jpg);
+            background-image: url(porygon_pokedex.jpeg);
             background-repeat: no-repeat;
             background-size: cover;
             z-index: 9;
@@ -126,7 +127,7 @@
             animation-timing-function: linear;
             animation-fill-mode: forwards;
         }
-        #homepage_title {
+        /* #homepage_title {
             width: 27%;
             text-align: center;
             font-size: 5rem;
@@ -134,7 +135,7 @@
             margin: 2rem;
             padding: 1rem;
             z-index: 9;
-        }
+        } */
         #homepage_container_1 {
             width: 100vw;
             height: 100vh;
@@ -282,7 +283,7 @@
         }
         #species_container_2 {
             width: 100vw;
-            height: 12000vh;
+            height: 4500rem;
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
@@ -313,10 +314,12 @@
         }
         .pokemon_title {
             height: 2rem;
-            width: 15.5rem;
+            width: 14.5rem;
             font-size: 1.5rem;
             background-color: chartreuse;
             padding-left: 0.5rem;
+            border-width: 0 0 0 1rem;
+            border-style: double;
         }
         .pokemon_image:hover {
             width: 17rem;
@@ -324,7 +327,7 @@
             margin: 0.5rem;
         }
         .pokemon_image:hover .pokemon_title {
-            width: 16.5rem;
+            width: 15.5rem;
         }
         /* flying pokemon animations */
         @keyframes rayquaza_flight {
