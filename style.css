@@ -1,4 +1,12 @@
 /*============== Styling for all pages ==============*/
+
+        /* 
+        blue: #01A4E3
+        red: #E40265
+        yellow: #FFDB00
+        indigo: #213AD6
+        purple: #8373A9
+         */
         body {
             margin: 0;
             max-width: 100vw;
@@ -13,7 +21,7 @@
             
             width: 100vw;
             height: 120px;
-            background-color: blue;
+            background-color: #01A4E3;
             z-index: 4;
         }
         #page_one {
@@ -22,7 +30,7 @@
         }
         #page_two {
             /* setting image as background */
-            background-image: url(pokemon_pngs/ditto.png);
+            background-image: url(rotom_dex.png);
         }
         #page_three {
             /* setting image as background */
@@ -52,7 +60,7 @@
             height: 100px;
             margin: 10px;
             font-size: 1rem;
-            color: chartreuse;
+            color: #FFDB00;
             z-index: 10;
         }
         .nav_item:hover {
@@ -82,38 +90,40 @@
 /*=============== Homepage Styling ===============*/
         @keyframes homepage_title_animation {
             24.99% {
-                background-image: url(porygon_pokedex.jpeg);
+                background-image: url(pokedex_porygon.png);
             }
             25% {
-                background-image: url(porygon2_pokedex.jpeg);
+                background-image: url(pokedex_porygon2.png);
             }
             49.99% {
-                background-image: url(porygon2_pokedex.jpeg);
+                background-image: url(pokedex_porygon2.png);
             }
             50% {
-                background-image: url(porygon_z_pokedex.png);
+                background-image: url(pokedex_porygon_z.png);
             }
             74.99% {
-                background-image: url(porygon_z_pokedex.png);
+                background-image: url(pokedex_porygon_z.png);
             }
             75% {
-                background-image: url(pokedex_minior.png);
+                background-image: url(pokedex_rotom2.png);
             }
             99.99% {
-                background-image: url(pokedex_minior.png);
+                background-image: url(pokedex_rotom2.png);
             }
             100% {
-                background-image: url(porygon_pokedex.jpeg);
+                background-image: url(pokedex_porygon.png);
             }
         }
         #homepage_title_container {
             width: 100vw;
-            height: 17vh;
+            height: 100vh;
             display: flex;
             flex-direction: row;
             flex-wrap: nowrap;
+            justify-content: flex-end;
+            align-items: center;
 
-            background-image: url(porygon_pokedex.jpeg);
+            background-image: url(pokedex_porygon.png);
             background-repeat: no-repeat;
             background-size: cover;
             z-index: 9;
@@ -127,15 +137,22 @@
             animation-timing-function: linear;
             animation-fill-mode: forwards;
         }
-        /* #homepage_title {
+        #homepage_title {
             width: 27%;
+            height: 50%;
             text-align: center;
             font-size: 5rem;
-            background-color: chartreuse;
-            margin: 2rem;
+            color: black;
+            background-color: #01A4E3;
+            margin: 2rem 10rem 2rem 2rem;
             padding: 1rem;
             z-index: 9;
-        } */
+            border-radius: 0 35% 0 35%;
+            border-width: 1rem;
+            border-style: solid;
+            border-color: #E40265;
+            box-shadow: 0 0 0 2rem #213AD6;
+        }
         #homepage_container_1 {
             width: 100vw;
             height: 100vh;
@@ -254,7 +271,7 @@
             /* width: 27%; */
             text-align: center;
             font-size: 5rem;
-            background-color: chartreuse;
+            background-color: #01A4E3;
             margin: 2rem;
             padding: 1rem;
             z-index: 9;
@@ -289,10 +306,12 @@
             flex-wrap: wrap;
 
             /* background image */
-            background-color: crimson;
+            /* background-color: #1C95CA; */
+            background: linear-gradient(to right, #2ac7eb, #29a2d3);
             z-index: 9;
             border-width: 10px 10px 10px 10px;
-            border-style: double;
+            border-style: solid;
+            border-color: #E40265;
 
             /* text */
             justify-content: space-around;
@@ -303,7 +322,7 @@
         .pokemon_image {
             width: 16rem;
             height: 16rem;
-            background-color: rgba(128, 128, 128, 0.621);
+            background-color: #198cc6a9;
             margin: 1rem;
             background-repeat: no-repeat;
             background-size: cover;
@@ -311,14 +330,17 @@
             flex-direction: column-reverse;
             align-items: stretch;
             align-content: flex-end;
+            border-radius: 10% 10% 0 0;
         }
         .pokemon_title {
             height: 2rem;
             width: 14.5rem;
             font-size: 1.5rem;
-            background-color: chartreuse;
+            color: black;
+            background-color: #8373A9;
             padding-left: 0.5rem;
             border-width: 0 0 0 1rem;
+            border-color: #213AD6;
             border-style: double;
         }
         .pokemon_image:hover {
@@ -485,9 +507,101 @@
             padding: 1rem;
             z-index: 9;
         }
+        @keyframes forms_title_animation {
+            24.99% {
+                background-image: url(pokedex_rotom.png);
+            }
+            25% {
+                background-image: url(pokedex_basculegion.png);
+            }
+            49.99% {
+                background-image: url(pokedex_basculegion.png);
+            }
+            50% {
+                background-image: url(pokedex_toxtricity.png);
+            }
+            74.99% {
+                background-image: url(pokedex_toxtricity.png);
+            }
+            75% {
+                background-image: url(pokedex_indeedee.png);
+            }
+            99.99% {
+                background-image: url(pokedex_indeedee.png);
+            }
+            100% {
+                background-image: url(pokedex_rotom.png);
+            }
+        }
+        #forms_shuffle {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
 
+            background-image: url(pokedex_rotom.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            z-index: 9;
+            border-width: 10px 10px 10px 10px;
+            border-style: double;
+
+            /* cycles through background images */
+            animation-name: forms_title_animation;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            animation-fill-mode: forwards;
+        }
 /*=============== Customize Styling ===============*/
+        @keyframes customize_title_animation {
+            24.99% {
+                background-image: url(pokedex_minior.png);
+            }
+            25% {
+                background-image: url(pokedex_dudunsparce.png);
+            }
+            49.99% {
+                background-image: url(pokedex_dudunsparce.png);
+            }
+            50% {
+                background-image: url(pokedex_alcremie.png);
+            }
+            74.99% {
+                background-image: url(pokedex_alcremie.png);
+            }
+            75% {
+                background-image: url(pokedex_basculin.png);
+            }
+            99.99% {
+                background-image: url(pokedex_basculin.png);
+            }
+            100% {
+                background-image: url(pokedex_minior.png);
+            }
+        }
+        #customize_shuffle {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
 
+            background-image: url(pokedex_minior.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            z-index: 9;
+            border-width: 0px 0px 10px 0px;
+            border-style: double;
+
+            /* cycles through background images */
+            animation-name: customize_title_animation;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            animation-fill-mode: forwards;
+        }
 /*=============== Pokemon Image Styling ===============*/
         #Bulbasaur {
             background-image: url(pokemon_pngs/bulbasaur.png);
