@@ -137,21 +137,26 @@
             animation-timing-function: linear;
             animation-fill-mode: forwards;
         }
-        #homepage_title {
-            width: 27%;
-            height: 50%;
-            text-align: center;
-            font-size: 5rem;
-            color: black;
+        #homepage_title_background {
+            width: 27rem;
+            height: 20rem;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
             background-color: #01A4E3;
             margin: 2rem 10rem 2rem 2rem;
             padding: 1rem;
             z-index: 9;
-            border-radius: 0 35% 0 35%;
+            border-radius: 0 38% 0 38%;
             border-width: 1rem;
             border-style: solid;
             border-color: #E40265;
             box-shadow: 0 0 0 2rem #213AD6;
+        }
+        #homepage_title {
+            text-align: center;
+            font-size: 4rem;
+            color: black;
         }
         #homepage_container_1 {
             width: 100vw;
@@ -300,7 +305,11 @@
         }
         #species_container_2 {
             width: 100vw;
-            height: 4500rem;
+            height: 4700rem;
+        }
+        #species_container_3 {
+            width: 100vw;
+            height: 4700rem;
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
@@ -331,6 +340,7 @@
             align-items: stretch;
             align-content: flex-end;
             border-radius: 10% 10% 0 0;
+            z-index: 11;
         }
         .pokemon_title {
             height: 2rem;
@@ -350,6 +360,108 @@
         }
         .pokemon_image:hover .pokemon_title {
             width: 15.5rem;
+        }
+        .pokeballs {
+            z-index: 10;
+            height: 20rem;
+            width: 20rem;
+            position: absolute;
+        }
+        #poke_ball {
+            left: 65%;
+            top: 510rem;
+        }
+        #great_ball {
+            left: 38%;
+            top: 800rem;
+        }
+        #ultra_ball {
+            left: 15%;
+            top: 1000rem;
+        }
+        #master_ball {
+            left: 38%;
+            top: 1100rem;
+        }
+        #nest_ball {
+            left: 65%;
+            top: 1300rem;
+        }
+        #premier_ball {
+            left: 38%;
+            top: 4500rem;
+        }
+        #friend_ball {
+            left: 15%;
+            top: 3500rem;
+        }
+        #level_ball {
+            left: 38%;
+            top: 1500rem;
+        }
+        #heal_ball {
+            left: 65%;
+            top: 1700rem;
+        }
+        #moon_ball {
+            left: 38%;
+            top: 1200rem;
+        }
+        #love_ball {
+            left: 15%;
+            top: 1400rem;
+        }
+        #love_ball {
+            left: 38%;
+            top: 1600rem;
+        }
+        #safari_ball {
+            left: 65%;
+            top: 1800rem;
+        }
+        #quick_ball {
+            left: 38%;
+            top: 2000rem;
+        }
+        #heavy_ball {
+            left: 15%;
+            top: 2200rem;
+        }
+        #lure_ball {
+            left: 38%;
+            top: 2400rem;
+        }
+        #net_ball {
+            left: 65%;
+            top: 2600rem;
+        }
+        #dive_ball {
+            left: 38%;
+            top: 2800rem;
+        }
+        #repeat_ball {
+            left: 15%;
+            top: 3000rem;
+        }
+        #dusk_ball {
+            left: 38%;
+            top: 3200rem;
+        }
+        #dream_ball {
+            left: 65%;
+            top: 3400rem;
+        }
+        #beast_ball {
+            left: 38%;
+            top: 3670rem;
+        }
+        #luxury_ball {
+            left: 15%;
+            top: 4000rem;
+        }
+        #cherish_ball {
+            left: 38%;
+            top: 4600rem;
         }
         /* flying pokemon animations */
         @keyframes rayquaza_flight {
@@ -428,7 +540,7 @@
             /* width: 27%; */
             text-align: center;
             font-size: 5rem;
-            background-color: chartreuse;
+            background-color: #01A4E3;
             margin: 2rem;
             padding: 1rem;
             z-index: 9;
@@ -456,7 +568,7 @@
             height: 32rem;
             text-align: center;
             font-size: 3rem;
-            background-color: chartreuse;
+            background-color: #01A4E3;
             margin: 2rem;
             padding: 1rem;
             z-index: 9;
@@ -505,7 +617,7 @@
         #forms_title {
             text-align: center;
             font-size: 5rem;
-            background-color: chartreuse;
+            background-color: #01A4E3;
             margin: 2rem;
             padding: 1rem;
             z-index: 9;
@@ -604,6 +716,26 @@
             animation-iteration-count: infinite;
             animation-timing-function: linear;
             animation-fill-mode: forwards;
+        }
+        #customize_container_1 {
+            width: 100vw;
+            height: 200rem;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            /* background image */
+            /* background-color: #1C95CA; */
+            background: linear-gradient(45deg, #2ac7eb, #29a2d3);
+            z-index: 9;
+            border-width: 10px 10px 10px 10px;
+            border-style: solid;
+            border-color: #E40265;
+
+            /* text */
+            justify-content: space-around;
+            box-sizing: border-box;
+            padding-bottom: 10px;
+            font-size: 1.5rem;
         }
 /*=============== Pokemon Image Styling ===============*/
         #Bulbasaur {
