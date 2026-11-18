@@ -448,6 +448,9 @@
             border-width: 0px 0px 10px 0px;
             border-style: double;
         }
+        .item_image {
+            width: 10rem;
+        }
         .stats_description {
             width: 32rem;
             height: 32rem;
@@ -557,7 +560,7 @@
 /*=============== Customize Styling ===============*/
         @keyframes customize_title_animation {
             24.99% {
-                background-image: url(pokedex_minior.png);
+                background-image: url(pokedex_squawkabilly.png);
             }
             25% {
                 background-image: url(pokedex_dudunsparce.png);
@@ -578,7 +581,7 @@
                 background-image: url(pokedex_basculin.png);
             }
             100% {
-                background-image: url(pokedex_minior.png);
+                background-image: url(pokedex_squawkabilly.png);
             }
         }
         #customize_shuffle {
@@ -588,7 +591,7 @@
             flex-direction: row;
             flex-wrap: nowrap;
 
-            background-image: url(pokedex_minior.png);
+            background-image: url(pokedex_squawkabilly.png);
             background-repeat: no-repeat;
             background-size: cover;
             z-index: 9;
