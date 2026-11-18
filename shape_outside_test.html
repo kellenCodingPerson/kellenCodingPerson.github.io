@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 500px;
+            font-family: sans-serif;
+            line-height: 1.6;
+            }
+
+            .shape {
+            float: left;
+            width: 150px;
+            height: 150px;
+            margin-right: 20px; /* Adds breathing room between the shape and text */
+            background-color: #3b82f6;
+
+            /* 1. Defines the invisible text-wrapping path */
+            shape-outside: circle(50%);
+            
+            /* 2. Clips the visible background to match */
+            clip-path: circle(50%);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="shape"></div>
+            <p>
+                Your long paragraph of text goes here. As it flows down the container, 
+                each line will curve cleanly around the circular boundary of the floated 
+                div instead of stopping at a sharp rectangular edge.
+            </p>
+        </div>
+</body>
+</html>
