@@ -18,6 +18,7 @@
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
+            justify-content: space-around;
             
             width: 100vw;
             height: 120px;
@@ -42,7 +43,7 @@
         }
         #page_five {
             /* setting image as background */
-            background-image: url(pokemon_pngs/vivillon.png);
+            background-image: url(pokemon_pngs/floette.png);
         }
         .nav_item {
             /* aligning label */
@@ -58,7 +59,6 @@
             /* setting size */
             width: 100px;
             height: 100px;
-            margin: 10px;
             font-size: 1rem;
             color: #FFDB00;
             z-index: 10;
@@ -553,9 +553,7 @@
             flex-wrap: wrap;
             justify-content: space-around;
             align-content: space-around;
-            background-image: url(sbrv1.jpg);
-            background-repeat: repeat;
-            background-size: cover;
+            background: linear-gradient(to right, #2ac7eb, #29a2d3);
             z-index: 9;
             border-width: 0px 0px 10px 0px;
             border-style: double;
@@ -563,13 +561,18 @@
         .item_image {
             width: 10rem;
         }
+        #floette_stats {
+            width: 30rem;
+        }
+        #ev_iv {
+            width: 15rem;
+        }
         .stats_description {
-            width: 32rem;
+            width: 35rem;
             height: 32rem;
             text-align: center;
             font-size: 3rem;
             background-color: #01A4E3;
-            margin: 2rem;
             padding: 1rem;
             z-index: 9;
         }
