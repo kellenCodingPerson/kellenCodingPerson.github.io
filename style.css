@@ -19,6 +19,7 @@
             flex-direction: row;
             flex-wrap: wrap;
             justify-content: space-around;
+            align-items: center;
             
             width: 100vw;
             height: 120px;
@@ -64,9 +65,10 @@
             z-index: 10;
         }
         .nav_item:hover {
-            width: 200px;
-            height: 200px;
-            font-size: 2rem;
+            /* width: 200px;
+            height: 200px; */
+            transform: scale(1.5);
+            font-size: 1.5rem;
         }
         /* make links appear above other elements when hovering */
         a:hover {
@@ -322,23 +324,23 @@
             border-style: solid;
             border-color: #E40265;
 
-            /* text */
             justify-content: space-around;
             box-sizing: border-box;
-            padding-bottom: 10px;
-            font-size: 1.5rem;
         }
         .pokemon_image {
             width: 16rem;
             height: 16rem;
             background-color: #198cc6a9;
             margin: 1rem;
+
             background-repeat: no-repeat;
             background-size: cover;
             display: flex;
+
             flex-direction: column-reverse;
             align-items: stretch;
             align-content: flex-end;
+
             border-radius: 10% 10% 0 0;
             z-index: 11;
         }
@@ -360,6 +362,7 @@
         }
         .pokemon_image:hover .pokemon_title {
             width: 15.5rem;
+            font-size: 1.6rem;
         }
         .pokeballs {
             z-index: 10;
@@ -567,12 +570,38 @@
         #ev_iv {
             width: 15rem;
         }
+        #dynamax_pangoro {
+            width: 20rem;
+        }
+        #tera_eevee {
+            width: 10rem;
+        }
+        #tera_koraidon {
+            width: 15rem;
+        }
+        #tera_miraidon {
+            width: 15rem;
+        }
+        
+        .ability_tag {
+            width: 20rem;
+            height: 5rem;
+            clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+            filter: drop-shadow(10rem 0 0 black), drop-shadow(-10rem 0 0 black);
+            background-color: white;
+        }
         .stats_description {
             width: 35rem;
             height: 32rem;
             text-align: center;
             font-size: 3rem;
             background-color: #01A4E3;
+            padding: 1rem;
+            z-index: 9;
+        }
+        .stats_image {
+            width: 35rem;
+            height: 32rem;
             padding: 1rem;
             z-index: 9;
         }
