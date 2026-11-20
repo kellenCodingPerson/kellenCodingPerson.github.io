@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>testing</title>
+    <style>
+        .outer-flex {
+            display: flex;
+            flex-direction: column;
+            background-color: blue;
+        }
+
+        .inner-flex {
+            display: flex;
+            position: relative;
+            background-color: red;
+        }
+
+        .dropdown {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            z-index: 10; /* Works because flex-item-1 has z-index: auto */
+        }
+    </style>
+</head>
+<body>
+    <div class="outer-flex">
+        <div class="flex-item-1">
+            <!-- No z-index on flex-item-1 so it doesn't trap the dropdown -->
+            <div class="inner-flex">
+            <button>Menu</button>
+            <div class="dropdown">I can overlap flex-item-2!</div>
+            </div>
+        </div>
+        
+        <div class="flex-item-2">
+            Content below
+        </div>
+</div>
+</body>
+</html>
