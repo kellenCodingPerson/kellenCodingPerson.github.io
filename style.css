@@ -145,13 +145,13 @@
             display: flex;
             flex-direction: row;
             align-items: center;
-            background-color: #01A4E3;
             margin: 2rem 10rem 2rem 2rem;
             padding: 1rem;
             z-index: 9;
             border-radius: 0 38% 0 38%;
             border-width: 1rem;
             border-style: solid;
+            background-color: #01A4E3;
             border-color: #E40265;
             box-shadow: 0 0 0 2rem #213AD6;
         }
@@ -601,13 +601,12 @@
             clip-path: polygon(20% 0%, 100% 0%, 80% 100%, 0% 100%);
             font-size: 2rem;
             line-height: 5rem;
-            font-weight: bold;
             text-align: center;
             font-family: Arial, Helvetica, sans-serif;
             z-index: 5;
         }
         #abilities_images {
-            /* border-style: dashed; */
+            border-style: dashed;
             z-index: 5;
         }
         #abilities_images2 {
@@ -750,7 +749,7 @@
             background-repeat: no-repeat;
             background-size: cover;
             z-index: 9;
-            border-width: 10px 10px 10px 10px;
+            border-width: 0px 0px 10px 0px;
             border-style: double;
 
             /* cycles through background images */
