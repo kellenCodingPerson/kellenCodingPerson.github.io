@@ -618,35 +618,44 @@
             align-items: center;
             z-index: 4;
         }
+        #abilities_images3 {
+            position: relative;
+        }
         #incineroar {
+            height: 15rem;
             z-index: 10;
-            position: relative;
-            transform: translate(0, -34rem);
-        }
-        #darmanitan {
-            z-index: 10;
-            position: relative;
-            transform: translate(7rem, -23rem);
-        }
-        #sharpedo {
-            z-index: 10;
-            position: relative;
-            transform: translate(0, -25rem);
+            position: absolute;
+            transform: translate(-3rem, -10rem);
         }
         #salamence {
+            height: 15rem;
             z-index: 10;
-            position: relative;
-            transform: translate(10rem, -48rem) scaleX(-1);
+            position: absolute;
+            transform: translate(23rem, -10rem) scaleX(-1);
+        }
+        #darmanitan {
+            height: 9rem;
+            z-index: 10;
+            position: absolute;
+            transform: translate(0rem, -7rem);
         }
         #darmanitan_galar {
+            height: 13rem;
             z-index: 10;
-            position: relative;
-            transform: translate(0rem, -50rem) scaleX(-1);
+            position: absolute;
+            transform: translate(23rem, -11rem) scaleX(-1);
+        }
+        #sharpedo {
+            height: 15rem;
+            z-index: 10;
+            position: absolute;
+            transform: translate(-3rem, -10rem);
         }
         #yanmega {
+            height: 15rem;
             z-index: 10;
-            position: relative;
-            transform: translate(10rem, -40rem) scaleX(-1);
+            position: absolute;
+            transform: translate(23rem, -10rem) scaleX(-1);
         }
         .stats_description {
             width: 35rem;
