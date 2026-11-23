@@ -118,7 +118,7 @@
         }
         #homepage_title_container {
             width: 100vw;
-            height: 100vh;
+            aspect-ratio: 711/400;
             display: flex;
             flex-direction: row;
             flex-wrap: nowrap;
@@ -129,7 +129,6 @@
             background-repeat: no-repeat;
             background-size: cover;
             z-index: 9;
-            border-width: 0px 0px 10px 0px;
             border-style: double;
 
             /* cycles through background images */
@@ -749,7 +748,7 @@
         }
         #forms_shuffle {
             width: 100vw;
-            height: 100vh;
+            aspect-ratio: 711/400;
             display: flex;
             flex-direction: row;
             flex-wrap: nowrap;
@@ -758,8 +757,6 @@
             background-repeat: no-repeat;
             background-size: cover;
             z-index: 9;
-            border-width: 0px 0px 10px 0px;
-            border-style: double;
 
             /* cycles through background images */
             animation-name: forms_title_animation;
@@ -767,6 +764,33 @@
             animation-iteration-count: infinite;
             animation-timing-function: linear;
             animation-fill-mode: forwards;
+        }
+        #wooper {
+            width: 50vw;
+        }
+        #wooper_p {
+            width: 50vw;
+        }
+        #forms_container_1 {
+            display: flex;
+        }
+        #forms_container_2 {
+            width: 100vw;
+            height: 100vh;
+            border-style: dashed;
+            position: relative;
+        }
+        #forms_container_3 {
+            width: 60%;
+        }
+        #forms_container_4 {
+            width: 40%;
+        }
+        #ogerpon_c {
+            transform: translate() scale(0.4);
+        }
+        #ogerpon_h {
+            transform: scale(0.4);
         }
 /*=============== Customize Styling ===============*/
         @keyframes customize_title_animation {
@@ -797,7 +821,7 @@
         }
         #customize_shuffle {
             width: 100vw;
-            height: 100vh;
+            aspect-ratio: 711/400;
             display: flex;
             flex-direction: row;
             flex-wrap: nowrap;
