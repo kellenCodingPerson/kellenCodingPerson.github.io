@@ -630,7 +630,7 @@
             height: 15rem;
             z-index: 10;
             position: absolute;
-            transform: translate(23rem, -10rem) scaleX(-1);
+            transform: translate(20rem, -10rem) scaleX(-1);
         }
         #darmanitan {
             height: 9rem;
@@ -654,7 +654,7 @@
             height: 15rem;
             z-index: 10;
             position: absolute;
-            transform: translate(23rem, -10rem) scaleX(-1);
+            transform: translate(21rem, -10rem) scaleX(-1);
         }
         .stats_description {
             width: 35rem;
@@ -778,19 +778,73 @@
             width: 100vw;
             height: 100vh;
             border-style: dashed;
-            position: relative;
         }
         #forms_container_3 {
-            width: 60%;
+            width: 60vw;
+            height: 100vh;
+            border-style: dotted;
+            position: relative;
+            background-image: url(oni_mountain.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
         }
         #forms_container_4 {
-            width: 40%;
+            width: 40vw;
+        }
+        #ogerpon {
+            position: absolute;
+            left: 40%;
+            top: 40%;
+            /* border-style: dashed; */
+        }
+        #ogerpon_t {
+            transform: scale(0.8);
+            position: absolute;
+            left: 10%;
+            top: 60%;
+            /* border-style: dashed; */
+        }
+        #ogerpon_w {
+            transform: scale(0.9);
+            position: absolute;
+            left: 10%;
+            top: 10%;
+            /* border-style: dashed; */
         }
         #ogerpon_c {
-            transform: translate() scale(0.4);
+            transform: scale(0.4);
+            position: absolute;
+            left: 40%;
+            top: 40%;
+            border-style: dashed;
         }
         #ogerpon_h {
             transform: scale(0.4);
+            position: absolute;
+            left: 40%;
+            top: 40%;
+            /* border-style: dashed; */
+        }
+        #forms_container_5 {
+            width: 100vw;
+            aspect-ratio: 1280/720;
+            background-image: url(slumbering_weald.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+        #zacianc {
+            position: absolute;
+        }
+        #zacian {
+            position: absolute;
+        }
+        #zamazentac {
+            position: absolute;
+        }
+        #zamazenta {
+            position: absolute;
         }
 /*=============== Customize Styling ===============*/
         @keyframes customize_title_animation {
