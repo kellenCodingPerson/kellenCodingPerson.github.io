@@ -10,7 +10,7 @@
         body {
             margin: 0;
             max-width: 100vw;
-            overflow-x: clip
+            /* overflow-x: clip */
         }
 
         /* Navbar code */
@@ -778,6 +778,7 @@
             width: 100vw;
             height: 100vh;
             border-style: dashed;
+            display: flex;
         }
         #forms_container_3 {
             width: 60vw;
@@ -793,37 +794,43 @@
             width: 40vw;
         }
         #ogerpon {
+            transform: scale(0.25);
+            transform-origin: top left;
             position: absolute;
-            left: 40%;
-            top: 40%;
+            left: 30%;
+            top: 30%;
             /* border-style: dashed; */
         }
         #ogerpon_t {
-            transform: scale(0.8);
+            transform: scale(0.5);
+            transform-origin: top left;
             position: absolute;
-            left: 10%;
+            left: 5%;
             top: 60%;
             /* border-style: dashed; */
         }
         #ogerpon_w {
-            transform: scale(0.9);
+            transform: scale(0.6);
+            transform-origin: top left;
             position: absolute;
-            left: 10%;
-            top: 10%;
+            left: 5%;
+            top: 5%;
             /* border-style: dashed; */
         }
         #ogerpon_c {
-            transform: scale(0.4);
+            transform: scale(0.6);
+            transform-origin: top left;
             position: absolute;
-            left: 40%;
-            top: 40%;
-            border-style: dashed;
+            left: 63%;
+            top: 5%;
+            /* border-style: dashed; */
         }
         #ogerpon_h {
-            transform: scale(0.4);
+            transform: scale(0.6);
+            transform-origin: top left;
             position: absolute;
-            left: 40%;
-            top: 40%;
+            left: 60%;
+            top: 60%;
             /* border-style: dashed; */
         }
         #forms_container_5 {
