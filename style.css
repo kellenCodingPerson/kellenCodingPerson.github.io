@@ -92,28 +92,28 @@
 /*=============== Homepage Styling ===============*/
         @keyframes homepage_title_animation {
             24.99% {
-                background-image: url(pokedex_porygon.png);
+                background-image: url(pokedex_images/pokedex_porygon.png);
             }
             25% {
-                background-image: url(pokedex_porygon2.png);
+                background-image: url(pokedex_images/pokedex_porygon2.png);
             }
             49.99% {
-                background-image: url(pokedex_porygon2.png);
+                background-image: url(pokedex_images/pokedex_porygon2.png);
             }
             50% {
-                background-image: url(pokedex_porygon_z.png);
+                background-image: url(pokedex_images/pokedex_porygon_z.png);
             }
             74.99% {
-                background-image: url(pokedex_porygon_z.png);
+                background-image: url(pokedex_images/pokedex_porygon_z.png);
             }
             75% {
-                background-image: url(pokedex_rotom2.png);
+                background-image: url(pokedex_images/pokedex_rotom2.png);
             }
             99.99% {
-                background-image: url(pokedex_rotom2.png);
+                background-image: url(pokedex_images/pokedex_rotom2.png);
             }
             100% {
-                background-image: url(pokedex_porygon.png);
+                background-image: url(pokedex_images/pokedex_porygon.png);
             }
         }
         #homepage_title_container {
@@ -125,7 +125,7 @@
             justify-content: flex-end;
             align-items: center;
 
-            background-image: url(pokedex_porygon.png);
+            background-image: url(pokedex_images/pokedex_porygon.png);
             background-repeat: no-repeat;
             background-size: cover;
             z-index: 9;
@@ -722,28 +722,28 @@
         }
         @keyframes forms_title_animation {
             24.99% {
-                background-image: url(pokedex_rotom.png);
+                background-image: url(pokedex_images/pokedex_rotom.png);
             }
             25% {
-                background-image: url(pokedex_basculegion.png);
+                background-image: url(pokedex_images/pokedex_basculegion.png);
             }
             49.99% {
-                background-image: url(pokedex_basculegion.png);
+                background-image: url(pokedex_images/pokedex_basculegion.png);
             }
             50% {
-                background-image: url(pokedex_toxtricity.png);
+                background-image: url(pokedex_images/pokedex_toxtricity.png);
             }
             74.99% {
-                background-image: url(pokedex_toxtricity.png);
+                background-image: url(pokedex_images/pokedex_toxtricity.png);
             }
             75% {
-                background-image: url(pokedex_indeedee.png);
+                background-image: url(pokedex_images/pokedex_indeedee.png);
             }
             99.99% {
-                background-image: url(pokedex_indeedee.png);
+                background-image: url(pokedex_images/pokedex_indeedee.png);
             }
             100% {
-                background-image: url(pokedex_rotom.png);
+                background-image: url(pokedex_images/pokedex_rotom.png);
             }
         }
         #forms_shuffle {
@@ -753,7 +753,7 @@
             flex-direction: row;
             flex-wrap: nowrap;
 
-            background-image: url(pokedex_rotom.png);
+            background-image: url(pokedex_images/pokedex_rotom.png);
             background-repeat: no-repeat;
             background-size: cover;
             z-index: 9;
@@ -881,28 +881,28 @@
 /*=============== Customize Styling ===============*/
         @keyframes customize_title_animation {
             24.99% {
-                background-image: url(pokedex_squawkabilly.png);
+                background-image: url(pokedex_images/pokedex_squawkabilly.png);
             }
             25% {
-                background-image: url(pokedex_dudunsparce.png);
+                background-image: url(pokedex_images/pokedex_dudunsparce.png);
             }
             49.99% {
-                background-image: url(pokedex_dudunsparce.png);
+                background-image: url(pokedex_images/pokedex_dudunsparce.png);
             }
             50% {
-                background-image: url(pokedex_alcremie.png);
+                background-image: url(pokedex_images/pokedex_alcremie.png);
             }
             74.99% {
-                background-image: url(pokedex_alcremie.png);
+                background-image: url(pokedex_images/pokedex_alcremie.png);
             }
             75% {
-                background-image: url(pokedex_basculin.png);
+                background-image: url(pokedex_images/pokedex_basculin.png);
             }
             99.99% {
-                background-image: url(pokedex_basculin.png);
+                background-image: url(pokedex_images/pokedex_basculin.png);
             }
             100% {
-                background-image: url(pokedex_squawkabilly.png);
+                background-image: url(pokedex_images/pokedex_squawkabilly.png);
             }
         }
         #customize_shuffle {
@@ -912,7 +912,7 @@
             flex-direction: row;
             flex-wrap: nowrap;
 
-            background-image: url(pokedex_squawkabilly.png);
+            background-image: url(pokedex_images/pokedex_squawkabilly.png);
             background-repeat: no-repeat;
             background-size: cover;
             z-index: 9;
