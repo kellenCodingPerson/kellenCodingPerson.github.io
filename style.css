@@ -10,7 +10,7 @@
         body {
             margin: 0;
             max-width: 100vw;
-            /* overflow-x: clip */
+            overflow-x: clip
         }
 
         /* Navbar code */
@@ -774,23 +774,23 @@
         #forms_container_1 {
             display: flex;
         }
-        #forms_container_2 {
+        #ogerpon_container_1 {
             width: 100vw;
             height: 100vh;
-            border-style: dashed;
+            /* border-style: dashed; */
             display: flex;
         }
-        #forms_container_3 {
+        #ogerpon_container_2 {
             width: 60vw;
             height: 100vh;
-            border-style: dotted;
+            /* border-style: dotted; */
             position: relative;
             background-image: url(oni_mountain.png);
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
         }
-        #forms_container_4 {
+        #forms_description_2 {
             width: 40vw;
         }
         #ogerpon {
@@ -833,25 +833,50 @@
             top: 60%;
             /* border-style: dashed; */
         }
-        #forms_container_5 {
+        #swsh_container {
             width: 100vw;
             aspect-ratio: 1280/720;
             background-image: url(slumbering_weald.png);
             background-repeat: no-repeat;
             background-size: cover;
             position: relative;
+            overflow: hidden;
         }
         #zacianc {
             position: absolute;
+            transform: scale(0.23);
+            transform-origin: top left;
+            left: -10%;
+            top: 5%;
         }
         #zacian {
+            transform: scale(0.9);
             position: absolute;
+            left: 10%;
+            top: 45%;
         }
         #zamazentac {
             position: absolute;
+            transform: scale(0.25);
+            transform-origin: top left;
+            left: 55%;
+            top: 5%;
         }
         #zamazenta {
+            transform: scale(0.8);
             position: absolute;
+            left: 50%;
+            top: 45%;
+        }
+        #rusted_sword {
+            position: absolute;
+            left: 38%;
+            top: 75%;
+        }
+        #rusted_shield {
+            position: absolute;
+            left: 46%;
+            top: 80%;
         }
 /*=============== Customize Styling ===============*/
         @keyframes customize_title_animation {
