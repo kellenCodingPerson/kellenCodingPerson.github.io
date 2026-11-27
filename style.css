@@ -563,14 +563,112 @@
             border-style: dashed;
             box-sizing: border-box;
         }
-        #stats_container {
-            height: 100vh;
-        }
-        #floette_battle {
-            width: 50vw;
+        .battle_description {
+            width: 35rem;
+            height: 32rem;
+            text-align: center;
+            font-size: 3rem;
+            background-color: #01A4E3;
+            padding: 1rem;
             margin: 0;
+            z-index: 9;
+        }
+        .battle_image {
+            width: 35rem;
+            height: 32rem;
+            padding: 1rem;
+            margin: 0;
+            z-index: 9;
         }
 
+        /* stats section */
+        #stats_container {
+            width: 100vw;
+            aspect-ratio: 3025/981;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            flex-wrap: nowrap;
+            border-style: dashed;
+            box-sizing: border-box;
+            padding: 0;
+            position: relative;
+        }
+        #floette_stats {
+            width: 60%;
+            margin: 0;
+        }
+        #stats_description {
+            width: 40%;
+            height: 100%;
+            text-align: center;
+            font-size: 3rem;
+            background-color: #01A4E3;
+            padding: 1rem;
+            margin: 0;
+        }
+        #mint_attack {
+            position: absolute;
+            left: 41%;
+            top: 70%;
+        }
+        #mint_defense {
+            position: absolute;
+            left: 44%;
+            top: 70%;
+        }
+        #mint_special_attack {
+            position: absolute;
+            left: 47%;
+            top: 70%;
+        }
+        #mint_special_defense {
+            position: absolute;
+            left: 50%;
+            top: 70%;
+        }
+        #mint_speed {
+            position: absolute;
+            left: 53%;
+            top: 70%;
+        }
+        #mint_serious {
+            position: absolute;
+            left: 56%;
+            top: 70%;
+        }
+        #hp_up {
+            position: absolute;
+            left: -1%;
+            top: 65%;
+        }
+        #protein {
+            position: absolute;
+            left: 5%;
+            top: 65%;
+        }
+        #iron {
+            position: absolute;
+            left: 11%;
+            top: 65%;
+        }
+        #carbos {
+            position: absolute;
+            left: 17%;
+            top: 65%;
+        }
+        #calcium {
+            position: absolute;
+            left: 23%;
+            top: 65%;
+        }
+        #zinc {
+            position: absolute;
+            left: 29%;
+            top: 65%;
+        }
+
+        /* items styling */
         #items_container {
             height: 100vh;
         }
@@ -578,9 +676,7 @@
             width: 10rem;
         }
         
-        /* #moves_container {
-            height: 100;
-        } */
+        /* moves styling */
         #moves_image_container {
             width: 50%;
             aspect-ratio: 1280/720;
@@ -604,6 +700,7 @@
 
         }
         
+        /* abilities styling */
         #abilities_container {
             height: 80vh;
         }
@@ -713,6 +810,7 @@
             background-position: center;
         }
 
+        /* tera styling */
         #tera_container {
             height: 100vh;
         }
@@ -728,23 +826,7 @@
             transform: translate(3rem, 15rem);
         }
         
-        .battle_description {
-            width: 35rem;
-            height: 32rem;
-            text-align: center;
-            font-size: 3rem;
-            background-color: #01A4E3;
-            padding: 1rem;
-            margin: 0;
-            z-index: 9;
-        }
-        .battle_image {
-            width: 35rem;
-            height: 32rem;
-            padding: 1rem;
-            margin: 0;
-            z-index: 9;
-        }
+        
         /* flying pokemon animations */
         @keyframes rayquaza_flight {
             /* 5 seconds to fly across screen */
