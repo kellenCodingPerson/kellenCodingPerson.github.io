@@ -129,7 +129,6 @@
             background-repeat: no-repeat;
             background-size: cover;
             z-index: 9;
-            border-style: double;
 
             /* cycles through background images */
             animation-name: homepage_title_animation;
@@ -165,52 +164,48 @@
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
-            padding: 10px;
-
-            /* background image */
-            background-image: url(sbrv1.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-            z-index: 9;
-            border-width: 0px 0px 10px 0px;
-            border-style: double;
-
-            /* text */
             justify-content: center;
             align-items: end;
-            box-sizing: border-box;
-            padding-bottom: 10px;
-            font-size: 1.5rem;
         }
-        #homepage_container_2 {
-            width: 100vw;
-            height: 100vh;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            padding: 10px;
-            justify-content: center;
-            align-items: end;
-
-            /* background image */
-            background-image: url(bloodmoon_sighting.png);
-            background-repeat: no-repeat;
-            background-size: cover;
-            z-index: 9;
-            border-width: 0px 0px 10px 0px;
-            border-style: double;
-        }
-        #homepage_container_3 {
-            width: 100vw;
-            height: 100vh;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: end;
+        #homepage_description_1 {
+            width: 50vw;
         }
         .homepage_image_1 {
-            width: 50%;
+            width: 25%;
+            aspect-ratio: 265/193;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+        #arceus_cutscene {
+            background-image: url(arceus_cutscene.png);
+        }
+        #blacephalon_anime {
+            background-image: url(blacephalon_anime.png);
+        }
+        #bloodmoon_sighting {
+            background-image: url(bloodmoon_sighting.png);
+        }
+        #emerald_cutscene {
+            background-image: url(emerald_cutscene.jpeg);
+        }
+        #pecharunt_loyal_three {
+            background-image: url(pecharunt_loyal_three.png);
+        }
+        #miraidon_indigo_disk {
+            background-image: url(miraidon_indigo_disk.png);
+        }
+        #keldeo_form_change {
+            background-image: url(keldeo_form_change.png);
+        }
+        #kleavor_noble {
+            background-image: url(kleavor_noble.png);
+        }
+        #core_enforcer {
+            background-image: url(core_enforcer.png);
+        }
+        #darkest_day {
+            background-image: url(darkest_day.png);
         }
         /* flying pokemon animations */
         @keyframes ho_oh_flight {
@@ -270,7 +265,6 @@
             background-size: cover;
             z-index: 9;
             border-width: 0px 0px 10px 0px;
-            border-style: double;
 
             /* cycles through background images */
             animation-name: species_title_animation;
@@ -301,8 +295,6 @@
             background-repeat: no-repeat;
             background-size: cover;
             z-index: 9;
-            border-width: 10px 10px 10px 10px;
-            border-style: double;
 
             /* text */
             justify-content: center;
@@ -529,8 +521,6 @@
             background-repeat: no-repeat;
             background-size: cover;
             z-index: 9;
-            border-width: 0px 0px 10px 0px;
-            border-style: double;
 
             /* cycles through background images */
             animation-name: stats_title_animation;
@@ -564,8 +554,6 @@
             align-content: space-around;
             background: linear-gradient(to right, #2ac7eb, #29a2d3);
             z-index: 9;
-            border-width: 0px 0px 10px 0px;
-            border-style: double;
         }
         .item_image {
             width: 10rem;
@@ -612,7 +600,7 @@
             z-index: 5;
         }
         #abilities_images {
-            border-style: dashed;
+            /* border-style: dashed; */
             z-index: 5;
         }
         #abilities_images2 {
@@ -709,8 +697,6 @@
             background-repeat: no-repeat;
             background-size: cover;
             z-index: 9;
-            border-width: 0px 0px 10px 0px;
-            border-style: double;
 
             /* text */
             justify-content: center;
@@ -923,8 +909,6 @@
             background-repeat: no-repeat;
             background-size: cover;
             z-index: 9;
-            border-width: 0px 0px 10px 0px;
-            border-style: double;
 
             /* cycles through background images */
             animation-name: customize_title_animation;
