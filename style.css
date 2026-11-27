@@ -485,8 +485,8 @@
             animation-duration: 20s;
         }
         
-/*=============== Stats Styling ===============*/
-        @keyframes stats_title_animation {
+/*=============== Battle Styling ===============*/
+        @keyframes battle_title_animation {
             24.99% {
                 background-image: url(sbrv1.jpg);
             }
@@ -512,7 +512,7 @@
                 background-image: url(sbrv1.jpg);
             }
         }
-        #stats_title_container {
+        #battle_title_container {
             width: 100vw;
             display: flex;
             flex-direction: row;
@@ -523,7 +523,7 @@
             z-index: 9;
 
             /* cycles through background images */
-            animation-name: stats_title_animation;
+            animation-name: battle_title_animation;
             animation-duration: 10s;
             animation-iteration-count: infinite;
             animation-timing-function: linear;
@@ -535,7 +535,7 @@
             padding-bottom: 10px;
             font-size: 1.5rem;
         }
-        #stats_title {
+        #battle_title {
             /* width: 27%; */
             text-align: center;
             font-size: 5rem;
@@ -544,39 +544,68 @@
             padding: 1rem;
             z-index: 9;
         }
-        #stats_container{
+        #battle_container {
             height: 600vh;
+            width: 100vw;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-content: flex-start;
+            background: linear-gradient(to right, #2ac7eb, #29a2d3);
+        }
+        .battle_section {
             width: 100vw;
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
             justify-content: space-around;
             align-content: space-around;
-            background: linear-gradient(to right, #2ac7eb, #29a2d3);
-            z-index: 9;
+            border-style: dashed;
+            box-sizing: border-box;
+        }
+        #stats_container {
+            height: 100vh;
+        }
+        #floette_battle {
+            width: 50vw;
+            margin: 0;
+        }
+
+        #items_container {
+            height: 100vh;
         }
         .item_image {
             width: 10rem;
         }
-        #floette_stats {
-            width: 30rem;
+        
+        /* #moves_container {
+            height: 100;
+        } */
+        #moves_image_container {
+            width: 50%;
+            aspect-ratio: 1280/720;
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0;
         }
-        #ev_iv {
-            width: 15rem;
+        .moves_image {
+            width: 50%;
+            height: 50%;
         }
-        #dynamax_pangoro {
-            width: 20rem;
+        #moves_description {
+            width: 50%;
+            height: 100%;
+            text-align: center;
+            font-size: 3rem;
+            background-color: #01A4E3;
+            padding: 1rem;
+            margin: 0;
+            box-sizing: border-box;
+
         }
-        #tera_eevee {
-            width: 10rem;
-            transform: scale(2) translate(5.5rem, -1.5rem);
-        }
-        #tera_koraidon {
-            width: 15rem;
-        }
-        #tera_miraidon {
-            width: 15rem;
-            transform: translate(3rem, 15rem);
+        
+        #abilities_container {
+            height: 80vh;
         }
         .ability_tag_outer {
             width: 33rem;
@@ -651,19 +680,69 @@
             position: absolute;
             transform: translate(21rem, -10rem) scaleX(-1);
         }
-        .stats_description {
+
+        #dynamax_container {
+            height: 80vh;
+        }
+        #dynamax_description {
+            width: 36%;
+            height: 100%;
+            text-align: center;
+            font-size: 3rem;
+            background-color: #01A4E3;
+            padding: 1rem;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        #gmax_charizard {
+            width: 32%;
+            height: 100%;
+            background-image: url(gmax_charizard.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin: 0;
+        }
+        #dynamax_pangoro {
+            width: 32%;
+            height: 100%;
+            background-image: url(dynamax_pangoro.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0;
+            background-position: center;
+        }
+
+        #tera_container {
+            height: 100vh;
+        }
+        #tera_eevee {
+            width: 10rem;
+            transform: scale(2) translate(5.5rem, -1.5rem);
+        }
+        #tera_koraidon {
+            width: 15rem;
+        }
+        #tera_miraidon {
+            width: 15rem;
+            transform: translate(3rem, 15rem);
+        }
+        
+        .battle_description {
             width: 35rem;
             height: 32rem;
             text-align: center;
             font-size: 3rem;
             background-color: #01A4E3;
             padding: 1rem;
+            margin: 0;
             z-index: 9;
         }
-        .stats_image {
+        .battle_image {
             width: 35rem;
             height: 32rem;
             padding: 1rem;
+            margin: 0;
             z-index: 9;
         }
         /* flying pokemon animations */
