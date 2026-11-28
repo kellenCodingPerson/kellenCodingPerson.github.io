@@ -1,16 +1,22 @@
 /*============== Styling for all pages ==============*/
 
         /* 
-        blue: #01A4E3
-        red: #E40265
-        yellow: #FFDB00
-        indigo: #213AD6
-        purple: #8373A9
+        red: #FF0000
+        orange: #FF8000
+        yellow: #FFFF00
+        green: #00FF2F
+        cyan: #00FFF7
+        blue: #0037FF
+        purple: #3300FF
+        magenta: #FF00FF
+        dark blue: #191947
+        darker blue: #060628
          */
         body {
             margin: 0;
             max-width: 100vw;
-            overflow-x: clip
+            overflow-x: clip;
+            background-color: #060628;
         }
 
         /* Navbar code */
@@ -23,28 +29,33 @@
             
             width: 100vw;
             height: 120px;
-            background-color: #01A4E3;
+            background-color: #191947;
             z-index: 4;
         }
         #page_one {
             /* setting image as background */
             background-image: url(pokemon_pngs/porygon_z.png);
+            color: #FF0000;
         }
         #page_two {
             /* setting image as background */
             background-image: url(rotom_dex.png);
+            color: #FFFF00;
         }
         #page_three {
             /* setting image as background */
             background-image: url(pokemon_pngs/incineroar.png);
+            color: #00FF2F;
         }
         #page_four {
             /* setting image as background */
             background-image: url(pokemon_pngs/deoxys.png);
+            color: #00FFF7;
         }
         #page_five {
             /* setting image as background */
             background-image: url(pokemon_pngs/floette.png);
+            color: #FF00FF;
         }
         .nav_item {
             /* aligning label */
@@ -61,7 +72,6 @@
             width: 100px;
             height: 100px;
             font-size: 1rem;
-            color: #FFDB00;
             z-index: 10;
         }
         .nav_item:hover {
@@ -149,9 +159,9 @@
             border-radius: 0 38% 0 38%;
             border-width: 1rem;
             border-style: solid;
-            background-color: #01A4E3;
-            border-color: #E40265;
-            box-shadow: 0 0 0 2rem #213AD6;
+            background-color: #060628;
+            border-color: #FF0000;
+            box-shadow: 0 0 0 2rem #060628;
         }
         #homepage_title {
             text-align: center;
@@ -278,7 +288,7 @@
             /* width: 27%; */
             text-align: center;
             font-size: 5rem;
-            background-color: #01A4E3;
+            background-color: #3300FF;
             margin: 2rem;
             padding: 1rem;
             z-index: 9;
@@ -315,12 +325,12 @@
             flex-wrap: wrap;
 
             /* background image */
-            /* background-color: #1C95CA; */
-            background: linear-gradient(to right, #2ac7eb, #29a2d3);
+            background-color: #060628;
+            /* background: linear-gradient(to right, #2ac7eb, #29a2d3); */
             z-index: 9;
             border-width: 10px 10px 10px 10px;
             border-style: solid;
-            border-color: #E40265;
+            border-color: #FA824C;
 
             justify-content: space-around;
             box-sizing: border-box;
@@ -328,7 +338,7 @@
         .pokemon_image {
             width: 16rem;
             height: 16rem;
-            background-color: #198cc6a9;
+            /* background-color: #1D1D26; */
             margin: 1rem;
 
             background-repeat: no-repeat;
@@ -339,18 +349,19 @@
             align-items: stretch;
             align-content: flex-end;
 
-            border-radius: 10% 10% 0 0;
+            outline-color: #0037FF;
+            outline-style: double;
             z-index: 11;
         }
         .pokemon_title {
             height: 2rem;
             width: 14.5rem;
             font-size: 1.5rem;
-            color: black;
-            background-color: #8373A9;
+            color: #00FF2F;
+            background-color: #191947;
             padding-left: 0.5rem;
             border-width: 0 0 0 1rem;
-            border-color: #213AD6;
+            border-color: #FF0000;
             border-style: double;
         }
         .pokemon_image:hover {
@@ -486,99 +497,46 @@
         }
         
 /*=============== Battle Styling ===============*/
-        @keyframes battle_title_animation {
-            24.99% {
-                background-image: url(sbrv1.jpg);
-            }
-            25% {
-                background-image: url(geris_game.png);
-            }
-            49.99% {
-                background-image: url(geris_game.png);
-            }
-            50% {
-                background-image: url(peashooter.png);
-            }
-            74.99% {
-                background-image: url(peashooter.png);
-            }
-            75% {
-                background-image: url(porygon2.jpg);
-            }
-            99.99% {
-                background-image: url(porygon2.jpg);
-            }
-            100% {
-                background-image: url(sbrv1.jpg);
-            }
-        }
         #battle_title_container {
             width: 100vw;
+            height: 20vh;
             display: flex;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            background-image: url(sbrv1.jpg);
+            
+            background-image: linear-gradient(90deg, #FF0000 0%, #FF8000 12.5%, #FFFF00 25%, #00FF2F 37.5%, #00FFF7 50%, #0037FF 62.5%, #3300FF 75%, #FF00FF 87.5%);
             background-repeat: no-repeat;
             background-size: cover;
-            z-index: 9;
 
-            /* cycles through background images */
-            animation-name: battle_title_animation;
-            animation-duration: 10s;
-            animation-iteration-count: infinite;
-            animation-timing-function: linear;
-            animation-fill-mode: forwards;
-            /* text */
             justify-content: center;
-            align-items: end;
+            align-items: center;
             box-sizing: border-box;
-            padding-bottom: 10px;
-            font-size: 1.5rem;
         }
         #battle_title {
-            /* width: 27%; */
+            width: 99.5%;
+            height: 95%;
             text-align: center;
             font-size: 5rem;
-            background-color: #01A4E3;
-            margin: 2rem;
+            color: #FF8000;
+            background-color: #060628;
             padding: 1rem;
-            z-index: 9;
+            box-sizing: border-box;
         }
         #battle_container {
-            height: 600vh;
             width: 100vw;
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
             align-content: flex-start;
-            background: linear-gradient(to right, #2ac7eb, #29a2d3);
+            background-color: #060628;
         }
         .battle_section {
             width: 100vw;
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
-            justify-content: space-around;
-            align-content: space-around;
-            border-style: dashed;
-            box-sizing: border-box;
-        }
-        .battle_description {
-            width: 35rem;
-            height: 32rem;
-            text-align: center;
-            font-size: 3rem;
-            background-color: #01A4E3;
-            padding: 1rem;
-            margin: 0;
-            z-index: 9;
-        }
-        .battle_image {
-            width: 35rem;
-            height: 32rem;
-            padding: 1rem;
-            margin: 0;
-            z-index: 9;
+            /* justify-content: space-around;
+            align-content: space-around; */
+            /* border-style: dashed;
+            box-sizing: border-box; */
         }
 
         /* stats section */
@@ -601,11 +559,16 @@
         #stats_description {
             width: 40%;
             height: 100%;
+            color: #00FF2F;
             text-align: center;
             font-size: 3rem;
-            background-color: #01A4E3;
+            background-color: #191947;
             padding: 1rem;
             margin: 0;
+            border-color: #00FF2F;
+            border-style: double;
+            border-width: 1rem;
+            box-sizing: border-box;
         }
         #mint_attack {
             position: absolute;
@@ -671,38 +634,89 @@
         /* items styling */
         #items_container {
             height: 100vh;
+            /* border-style: dashed;
+            border-color: #00fff7; */
+        }
+        #items_description {
+            width: 100%;
+            height: 50%;
+            color: #FA824C;
+            text-align: center;
+            font-size: 3rem;
+            padding: 1rem;
+            margin: 0;
+            border-color: #FA824C;
+            border-style: double;
+            border-width: 1rem;
+            box-sizing: border-box;
+            position: relative;
+        }
+        #global_link_sneasler {
+            position: absolute;
+            width: 20%;
+            left: 0%;
+            top: 13%;
+        }
+        #global_link_ursaluna {
+            position: absolute;
+            width: 25%;
+            left: 73%;
+            top: 10%;
+        }
+        #white_herb {
+            position: absolute;
+            width: 7%;
+            left: 10%;
+            top: 60%;
+        }
+        #flame_orb {
+            position: absolute;
+            width: 7%;
+            left: 85%;
+            top: 70%;
+        }
+        #items_image_container {
+            width: 100%;
+            height: 50%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
+            /* box-sizing: border-box;
+            border-style: dashed;
+            border-color: #00FF2F; */
         }
         .item_image {
             width: 10rem;
-        }
-        
-        /* moves styling */
-        #moves_image_container {
-            width: 50%;
-            aspect-ratio: 1280/720;
-            display: flex;
-            flex-wrap: wrap;
-            margin: 0;
-        }
-        .moves_image {
-            width: 50%;
-            height: 50%;
-        }
-        #moves_description {
-            width: 50%;
-            height: 100%;
-            text-align: center;
-            font-size: 3rem;
-            background-color: #01A4E3;
-            padding: 1rem;
-            margin: 0;
-            box-sizing: border-box;
-
+            height: 10rem;
         }
         
         /* abilities styling */
         #abilities_container {
-            height: 80vh;
+            width: 100vw;
+            aspect-ratio: 3025/981;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            flex-wrap: nowrap;
+            border-style: dashed;
+            box-sizing: border-box;
+            padding: 0;
+            position: relative;
+        }
+        #abilities_description {
+            width: 40%;
+            color: #00fff7;
+            text-align: center;
+            font-size: 3rem;
+            padding: 1rem;
+            margin: 0;
+            border-color: #00fff7;
+            border-style: double;
+            border-width: 1rem;
+            box-sizing: border-box;
+
         }
         .ability_tag_outer {
             width: 33rem;
@@ -726,19 +740,22 @@
             z-index: 5;
         }
         #abilities_images {
+            width: 60%;
+            aspect-ratio: 2880/1126;
             /* border-style: dashed; */
-            z-index: 5;
-        }
-        #abilities_images2 {
-            width: 35rem;
-            height: 32rem;
+            background-image: url(champions.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            padding: 1rem;
+            margin: 0;
             display: flex;
             flex-direction: column;
             justify-content: space-around;
             align-items: center;
             z-index: 4;
         }
-        #abilities_images3 {
+        .abilities_images2 {
             position: relative;
         }
         #incineroar {
@@ -751,7 +768,7 @@
             height: 15rem;
             z-index: 10;
             position: absolute;
-            transform: translate(20rem, -10rem) scaleX(-1);
+            transform: translate(25rem, -10rem) scaleX(-1);
         }
         #darmanitan {
             height: 9rem;
@@ -778,18 +795,50 @@
             transform: translate(21rem, -10rem) scaleX(-1);
         }
 
+        /* moves styling */
+        #moves_image_container {
+            width: 50%;
+            aspect-ratio: 1280/720;
+            display: flex;
+            justify-content: space-around;
+            align-content: space-around;
+            flex-wrap: wrap;
+            margin: 0;
+            background-image: linear-gradient(90deg, #FF0000 0%, #FF8000 12.5%, #FFFF00 25%, #00FF2F 37.5%, #00FFF7 50%, #0037FF 62.5%, #3300FF 75%, #FF00FF 87.5%);
+        }
+        .moves_image {
+            width: 49%;
+            height: 48%;
+            /* transform: scale(0.95); */
+        }
+        #moves_description {
+            width: 50%;
+            height: 100%;
+            color: #FF00FF;
+            text-align: center;
+            font-size: 3rem;
+            padding: 1rem;
+            margin: 0;
+            border-color: #FF00FF;
+            border-style: double;
+            border-width: 1rem;
+            box-sizing: border-box;
+        }
+
         #dynamax_container {
             height: 80vh;
         }
         #dynamax_description {
             width: 36%;
             height: 100%;
+            color: #FF0000;
             text-align: center;
             font-size: 3rem;
-            background-color: #01A4E3;
             padding: 1rem;
             margin: 0;
             box-sizing: border-box;
+            border-style: double;
+            border-width: 1rem;
         }
         #gmax_charizard {
             width: 32%;
@@ -811,19 +860,56 @@
         }
 
         /* tera styling */
+        #tera_description {
+            width: 50%;
+            height: 100%;
+            color: #FFFF00;
+            text-align: center;
+            font-size: 3rem;
+            padding: 1rem;
+            margin: 0;
+            border-color: #FFFF00;
+            border-style: double;
+            border-width: 1rem;
+            box-sizing: border-box;
+        }
         #tera_container {
-            height: 100vh;
+            width: 100vw;
+            aspect-ratio: 3025/981;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            flex-wrap: nowrap;
+            /* border-style: dashed; */
+            box-sizing: border-box;
+            padding: 0;
+            position: relative;
+        }
+        #tera_image {
+            width: 60%;
+            background-image: url(tera_raid.webp);
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
         }
         #tera_eevee {
-            width: 10rem;
-            transform: scale(2) translate(5.5rem, -1.5rem);
+            width: 40%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
         }
         #tera_koraidon {
             width: 15rem;
+            position: absolute;
+            left: 2%;
+            top: 5%;
         }
         #tera_miraidon {
             width: 15rem;
-            transform: translate(3rem, 15rem);
+            position: absolute;
+            left: 70%;
+            top: 50%;
         }
         
         
@@ -869,7 +955,7 @@
         #forms_title {
             text-align: center;
             font-size: 5rem;
-            background-color: #01A4E3;
+            background-color: #F5473D;
             margin: 2rem;
             padding: 1rem;
             z-index: 9;
@@ -1090,7 +1176,7 @@
             z-index: 9;
             border-width: 10px 10px 10px 10px;
             border-style: solid;
-            border-color: #E40265;
+            border-color: #FA824C;
 
             /* text */
             justify-content: space-around;
